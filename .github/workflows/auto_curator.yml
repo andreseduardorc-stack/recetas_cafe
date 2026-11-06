@@ -1,0 +1,44 @@
+name: Auto Curator - Recetas Autónomas
+
+on:
+  schedule:
+    # Se ejecuta todos los lunes a las 09:00 UTC (06:00 AM hora de Chile)
+    - cron: '0 9 * * 1'
+  workflow_dispatch: # Permite ejecutar el bot manualmente con un solo clic desde GitHub Actions
+
+permissions:
+  contents: write
+
+jobs:
+  curate-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Ejecutar Bot Curador de Recetas
+        run: npm run curate
+
+      - name: Publicar cambios automáticamente si hay nuevas recetas
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git add .
+            git commit -m "🤖 bot: nueva receta mundial añadida a CaféPedia [skip ci]"
+            git push origin main
+            echo "✅ ¡Nuevas recetas publicadas y sincronizadas con GitHub Pages!"
+          else
+            echo "ℹ️ No hubo recetas nuevas para agregar en este ciclo."
+          fi

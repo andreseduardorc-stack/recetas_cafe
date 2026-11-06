@@ -802,7 +802,153 @@ export const RECIPES_DATA = [
     ],
     baristaTip: 'Si te gusta más intenso, pide un "Filthy Chai" (agregando dos shots de espresso en lugar de uno).',
     source: 'Specialty Tea & Coffee Guild'
+  },
+  {
+    "id": "cafe-touba-senegal",
+    "name": "Café Touba Tradicional de Senegal",
+    "category": "especiales",
+    "categoryName": "Especiales & De Autor",
+    "origin": "Senegal (Hermandad Murid, Cheikh Amadou Bamba)",
+    "difficulty": "Fácil",
+    "time": "5 min",
+    "timeMinutes": 5,
+    "grindSize": "Media-Gruesa",
+    "ratio": "1:12 (25g café con djar -> 300g agua)",
+    "coffeeGrams": 25,
+    "waterMl": 300,
+    "temp": "95°C",
+    "flavorNotes": [
+      "Pimienta de Selim ahumada",
+      "Clavo dulce",
+      "Picante sutil",
+      "Estimulante"
+    ],
+    "tags": [
+      "senegal",
+      "touba",
+      "especias",
+      "pimienta djar",
+      "africa",
+      "tradicional",
+      "intenso"
+    ],
+    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
+    "shortDesc": "La bebida sagrada de Touba: granos de café tostados con pimienta de Guinea (Djar) y clavo de olor con un remate especiado y medicinal.",
+    "longDesc": "Creado a finales del siglo XIX por el líder sufí Cheikh Amadou Bamba, el Café Touba combina café Robusta tostado muy oscuro con \"djar\" (semillas secas de Xylopia aethiopica) molidas. Se prepara mediante filtrado por goteo tradicional en bolsa de tela pasando el líquido de jarra en jarra para oxigenar.",
+    "ingredients": [
+      {
+        "item": "Café tostado oscuro molido",
+        "amount": "20g",
+        "baseQty": 20,
+        "unit": "g"
+      },
+      {
+        "item": "Pimienta de Guinea (Djar) y clavo molidos",
+        "amount": "5g (1 cdita)",
+        "baseQty": 5,
+        "unit": "g"
+      },
+      {
+        "item": "Agua muy caliente (95°C)",
+        "amount": "300ml",
+        "baseQty": 300,
+        "unit": "ml"
+      },
+      {
+        "item": "Azúcar moreno al gusto",
+        "amount": "10g (opcional)",
+        "baseQty": 10,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Mezcla el café molido medio-grueso con las especias djar y clavo trituradas.",
+      "Coloca la mezcla en un filtro cónico o manga de tela tradicional.",
+      "Vierte los 300ml de agua caliente lentamente en círculos para empapar las especias.",
+      "Recoge la extracción y viértela de nuevo a través del filtro una segunda vez para intensificar el sabor.",
+      "Pasa el café de un vaso a otro a cierta altura creando una capa ligera de espuma antes de servir bien caliente."
+    ],
+    "baristaTip": "El Djar contiene aceites esenciales con propiedades digestivas y broncodilatadoras, otorgando un efecto vigorizante mucho más prolongado que el café común.",
+    "source": "Patrimonio Cultural y Culinario de África Occidental"
+  },
+
+  {
+    "id": "ca-phe-trung-hanoi",
+    "name": "Cà Phê Trứng (Café con Huevo de Hanói)",
+    "category": "especiales",
+    "categoryName": "Especiales & De Autor",
+    "origin": "Hanói, Vietnam (Café Giảng, 1946)",
+    "difficulty": "Intermedio",
+    "time": "6 min",
+    "timeMinutes": 6,
+    "grindSize": "Media (Filtro Phin)",
+    "ratio": "1 shot café robusta denso + crema batida de yema y leche condensada",
+    "coffeeGrams": 20,
+    "waterMl": 60,
+    "temp": "Caliente",
+    "flavorNotes": [
+      "Natilla de tiramisú",
+      "Dulzura aterciopelada",
+      "Café robusta oscuro",
+      "Cremoso"
+    ],
+    "tags": [
+      "vietnam",
+      "hanoi",
+      "phin",
+      "huevo",
+      "dulce",
+      "postre",
+      "cremoso",
+      "asia"
+    ],
+    "image": "https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=800&q=80",
+    "shortDesc": "La joya dulce de Vietnam: una crema batida espumosa de yema de huevo y leche condensada flotando sobre café negro intenso extraído en filtro Phin.",
+    "longDesc": "Inventado por Nguyen Van Giang en el famoso Café Giảng durante la Guerra de Indochina cuando la leche fresca escaseaba. Sustituyó la leche por yema de huevo batida a punto de nieve con azúcar, creando una bebida similar a un tiramisú bebible que hoy fascina al mundo entero.",
+    "ingredients": [
+      {
+        "item": "Café molido vietnamita de tueste oscuro (Robusta)",
+        "amount": "20g",
+        "baseQty": 20,
+        "unit": "g"
+      },
+      {
+        "item": "Agua a 95°C",
+        "amount": "60ml",
+        "baseQty": 60,
+        "unit": "ml"
+      },
+      {
+        "item": "Yema de huevo fresco",
+        "amount": "1 unidad",
+        "baseQty": 1,
+        "unit": "unidad"
+      },
+      {
+        "item": "Leche condensada",
+        "amount": "20ml",
+        "baseQty": 20,
+        "unit": "ml"
+      },
+      {
+        "item": "Extracto de vainilla natural",
+        "amount": "1/2 cucharadita",
+        "baseQty": 2,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Extrae el café negro bien concentrado utilizando un filtro de goteo tradicional Phin vietnamita (o cafetera italiana/moka).",
+      "En un cuenco hondo, coloca la yema de huevo, la leche condensada y la vainilla.",
+      "Bate con varillas eléctricas a velocidad alta durante 3 a 4 minutos hasta obtener una crema espesa, aireada y de color amarillo pálido.",
+      "Vierte el café caliente en una taza transparente precalentada.",
+      "Coloca suavemente la crema de yema batida sobre la superficie; flotará como una nube esponjosa.",
+      "Sírvelo colocando la taza dentro de un tazón pequeño con agua caliente para mantener la temperatura."
+    ],
+    "baristaTip": "Bate la yema con suficiente vigor: si no incorpora suficiente aire, la crema se hundirá en el café en vez de flotar.",
+    "source": "Café Giảng Archive & Vietnam Tourism Board"
   }
+
 ];
 
 // Helper to extract unique tags across all recipes for autocomplete
