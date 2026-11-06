@@ -37,6 +37,12 @@
 5. **Aporte de Recetas de Internet**:
    - Formulario para que los usuarios registrados puedan ingresar nuevas recetas encontradas en la web con enlace a la fuente original, ingredientes dinámicos y pasos personalizados.
 
+6. **🤖 Bot Curador Autónomo (Alimentación Automática en GitHub Actions)**:
+   - Sistema programado mediante Cron en GitHub Actions (`.github/workflows/auto_curator.yml`) que se ejecuta periódicamente de forma autónoma.
+   - Rastrea recetas tradicionales y tendencias de café de diferentes culturas del mundo, estandariza sus proporciones SCA y las añade a la base de datos sin duplicados.
+   - Recompila la web y actualiza GitHub Pages automáticamente sin intervención manual.
+   - Incluye botón de ejecución manual con un solo clic en la pestaña *Actions* de GitHub y comando local `npm run curate`.
+
 ---
 
 ## 🚀 Cómo Ejecutar el Proyecto en Local
