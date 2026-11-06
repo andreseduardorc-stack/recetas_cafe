@@ -36,7 +36,7 @@ jobs:
             git config --global user.name "github-actions[bot]"
             git config --global user.email "github-actions[bot]@users.noreply.github.com"
             git add .
-            git commit -m "🤖 bot: nueva receta mundial añadida a CaféPedia [skip ci]"
+            git commit -m "🤖 bot: nueva receta mundial añadida a CaféPedia"
             git push origin main
             echo "✅ ¡Nuevas recetas publicadas y sincronizadas con GitHub Pages!"
           else
