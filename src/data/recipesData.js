@@ -948,6 +948,82 @@ export const RECIPES_DATA = [
     "baristaTip": "Bate la yema con suficiente vigor: si no incorpora suficiente aire, la crema se hundirá en el café en vez de flotar.",
     "source": "Café Giảng Archive & Vietnam Tourism Board"
   }
+,
+  {
+    "id": "barraquito-canario",
+    "name": "Barraquito Canario Auténtico",
+    "category": "especiales",
+    "categoryName": "Especiales & De Autor",
+    "origin": "Islas Canarias, España (Tenerife)",
+    "difficulty": "Fácil",
+    "time": "4 min",
+    "timeMinutes": 4,
+    "grindSize": "Fina",
+    "ratio": "Capas: Leche condensada + Licor 43 + Café solo + Espuma de leche",
+    "coffeeGrams": 16,
+    "waterMl": 35,
+    "milkMl": 80,
+    "temp": "Caliente",
+    "flavorNotes": [
+      "Vainilla y cítrico",
+      "Leche caramelizada",
+      "Contraste visual de 4 franjas",
+      "Canela"
+    ],
+    "tags": [
+      "canarias",
+      "tenerife",
+      "espana",
+      "licor 43",
+      "leche condensada",
+      "visual",
+      "dulce"
+    ],
+    "image": "https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=800&q=80",
+    "shortDesc": "El café de cuatro capas más icónico de Tenerife: leche condensada en la base, Licor 43, espresso dorado y corona de microespuma con canela y limón.",
+    "longDesc": "Se dice que un cliente habitual apodado \"Barraco\" pedía siempre este preparado especial en el Bar Imperial de Santa Cruz de Tenerife en los años 50. La diferencia de densidades crea un degradado perfecto en vaso estrecho de cristal.",
+    "ingredients": [
+      {
+        "item": "Leche condensada",
+        "amount": "25ml",
+        "baseQty": 25,
+        "unit": "ml"
+      },
+      {
+        "item": "Licor 43 (o Tía María)",
+        "amount": "15ml",
+        "baseQty": 15,
+        "unit": "ml"
+      },
+      {
+        "item": "Espresso corto intenso",
+        "amount": "35ml",
+        "baseQty": 35,
+        "unit": "ml"
+      },
+      {
+        "item": "Leche entera emulsionada caliente",
+        "amount": "80ml",
+        "baseQty": 80,
+        "unit": "ml"
+      },
+      {
+        "item": "Canela en polvo y corteza de limón fresco",
+        "amount": "Para decorar",
+        "baseQty": 1,
+        "unit": "twist"
+      }
+    ],
+    "steps": [
+      "En un vaso alto y fino de cristal transparente, añade la leche condensada en el fondo (capa 1).",
+      "Vierte el Licor 43 muy despacio sobre el dorso de una cuchara apoyada en el cristal para que repose sobre la leche condensada (capa 2).",
+      "Extrae el shot de espresso y viértelo con el mismo cuidado con la cuchara para crear la tercera franja oscura.",
+      "Vaporiza la leche y añade la espuma blanca densa en la parte superior (capa 4).",
+      "Decora con un espolvoreado de canela molida y un trozo de corteza de limón colocada en el borde."
+    ],
+    "baristaTip": "El truco para que las capas no se mezclen radica en la temperatura y el azúcar: los líquidos más dulces y densos van abajo, los calientes y ligeros arriba.",
+    "source": "Tradición Gastronómica de las Islas Canarias"
+  }
 
 ];
 
