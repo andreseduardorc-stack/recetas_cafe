@@ -1024,6 +1024,75 @@ export const RECIPES_DATA = [
     "baristaTip": "El truco para que las capas no se mezclen radica en la temperatura y el azúcar: los líquidos más dulces y densos van abajo, los calientes y ligeros arriba.",
     "source": "Tradición Gastronómica de las Islas Canarias"
   }
+,
+  {
+    "id": "yuenyeung-hong-kong",
+    "name": "Yuenyeung (Café con Té con Leche de Hong Kong)",
+    "category": "especiales",
+    "categoryName": "Especiales & De Autor",
+    "origin": "Hong Kong (Cha Chaan Teng)",
+    "difficulty": "Fácil",
+    "time": "5 min",
+    "timeMinutes": 5,
+    "grindSize": "Media",
+    "ratio": "3 partes café negro + 7 partes té negro de Ceilán con leche evaporada",
+    "coffeeGrams": 15,
+    "waterMl": 100,
+    "temp": "Caliente o con hielo",
+    "flavorNotes": [
+      "Té negro astringente suave",
+      "Cremoso lácteo",
+      "Tostado de café",
+      "Bebida reconfortante"
+    ],
+    "tags": [
+      "hong kong",
+      "yuenyeung",
+      "te con leche",
+      "cha chaan teng",
+      "fusion",
+      "frio o caliente"
+    ],
+    "image": "https://images.unsplash.com/photo-1577968897966-3d4325b36b61?auto=format&fit=crop&w=800&q=80",
+    "shortDesc": "La legendaria bebida de los comensales de Hong Kong: una unión armónica de café recién hecho con el tradicional té con leche condensada y evaporada.",
+    "longDesc": "\"Yuenyeung\" hace referencia al pato mandarín en la cultura cantonesa, símbolo de parejas unidas a pesar de sus diferencias. Es la bebida insigne de los tradicionales comensales Cha Chaan Teng que combina la cafeína vigorizante del café con los taninos florales del té negro.",
+    "ingredients": [
+      {
+        "item": "Café negro filtrado intenso recién hecho",
+        "amount": "80ml",
+        "baseQty": 80,
+        "unit": "ml"
+      },
+      {
+        "item": "Té negro concentrado (Ceilán o Assam macerado fuerte)",
+        "amount": "120ml",
+        "baseQty": 120,
+        "unit": "ml"
+      },
+      {
+        "item": "Leche evaporada entera",
+        "amount": "50ml",
+        "baseQty": 50,
+        "unit": "ml"
+      },
+      {
+        "item": "Azúcar o leche condensada al gusto",
+        "amount": "15ml",
+        "baseQty": 15,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Prepara un té negro muy concentrado hirviendo hojas de té Ceilán en agua durante 4 minutos.",
+      "Cuela el té usando una manga de tela fina varias veces al estilo \"té de pantimedias\" de Hong Kong.",
+      "Mezcla el té caliente con la leche evaporada y el azúcar o leche condensada.",
+      "Prepara el café negro bien aromático.",
+      "Combina el café con el té con leche en una proporción aproximada de 30% café y 70% té con leche.",
+      "Sirve humeante en taza gruesa o viértelo sobre cubos de hielo para la versión veraniega Iced Yuenyeung."
+    ],
+    "baristaTip": "El secreto está en usar leche evaporada (no leche común fresca), ya que le aporta esa densidad característica y textura de seda.",
+    "source": "Hong Kong Living Heritage & Intangible Cultural Registry"
+  }
 
 ];
 
