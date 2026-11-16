@@ -1093,6 +1093,63 @@ export const RECIPES_DATA = [
     "baristaTip": "El secreto está en usar leche evaporada (no leche común fresca), ya que le aporta esa densidad característica y textura de seda.",
     "source": "Hong Kong Living Heritage & Intangible Cultural Registry"
   }
+,
+  {
+    "id": "kaffeost-escandinavo",
+    "name": "Kaffeost Escandinavo (Café con Queso Ártico)",
+    "category": "salud",
+    "categoryName": "Salud & Alternativos",
+    "origin": "Laponia (Suecia y Finlandia, pueblo Sami)",
+    "difficulty": "Fácil",
+    "time": "3 min",
+    "timeMinutes": 3,
+    "grindSize": "Gruesa (Kokkaffe en tetera sobre fuego)",
+    "ratio": "1 taza de café negro filtrado caliente + dados de queso Leipäjuusto",
+    "coffeeGrams": 20,
+    "waterMl": 250,
+    "temp": "Muy caliente (95°C)",
+    "flavorNotes": [
+      "Salado sutil",
+      "Queso fundente esponjoso",
+      "Tostado acaramelado",
+      "Calidez polar"
+    ],
+    "tags": [
+      "suecia",
+      "finlandia",
+      "sami",
+      "queso",
+      "kaffeost",
+      "curioso",
+      "artico"
+    ],
+    "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=800&q=80",
+    "shortDesc": "La ancestral tradición sami de Laponia: dados de queso de cuajada horneado (Juustoleipä) sumergidos en café caliente que absorben los aromas como una esponja.",
+    "longDesc": "Una de las costumbres cafeteras más fascinantes de Europa del Norte. En las heladas tundras árticas, el queso de reno o vaca se hornea previamente para crear una corteza tostada y se corta en dados dentro de la taza de abedul tallada (Kuksa) antes de verter café hirviendo.",
+    "ingredients": [
+      {
+        "item": "Café caliente de filtro o prensa francesa tueste medio",
+        "amount": "220ml",
+        "baseQty": 220,
+        "unit": "ml"
+      },
+      {
+        "item": "Queso de cuajada horneado (Leipäjuusto / Juustoleipä o Halloumi suave)",
+        "amount": "40g en cubitos",
+        "baseQty": 40,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Corta el queso horneado en cubitos de aproximadamente 1 cm de lado.",
+      "Coloca los dados en el fondo de una taza de madera kuksa o taza de cerámica.",
+      "Vierte café negro recién filtrado muy caliente directamente sobre los dados de queso.",
+      "Deja reposar 2 minutos para que el queso se caliente, ablande y absorba el café como una esponja elástica.",
+      "Bebe el café aromatizado con notas lácteas y salinas suaves, y luego come los dados de queso con una cucharilla."
+    ],
+    "baristaTip": "El queso Leipäjuusto no se disuelve ni enturbia el café; al calentarse adquiere una textura chirriante (\"squeaky\") similar al marshmallow salado.",
+    "source": "Sami Culinary Heritage & Nordic Food Lab"
+  }
 
 ];
 
