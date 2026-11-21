@@ -21,7 +21,7 @@ export const DISCOVERY_POOL = [
     temp: '95°C',
     flavorNotes: ['Pimienta de Selim ahumada', 'Clavo dulce', 'Picante sutil', 'Estimulante'],
     tags: ['senegal', 'touba', 'especias', 'pimienta djar', 'africa', 'tradicional', 'intenso'],
-    image: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'La bebida sagrada de Touba: granos de café tostados con pimienta de Guinea (Djar) y clavo de olor con un remate especiado y medicinal.',
     longDesc: 'Creado a finales del siglo XIX por el líder sufí Cheikh Amadou Bamba, el Café Touba combina café Robusta tostado muy oscuro con "djar" (semillas secas de Xylopia aethiopica) molidas. Se prepara mediante filtrado por goteo tradicional en bolsa de tela pasando el líquido de jarra en jarra para oxigenar.',
     ingredients: [
@@ -56,7 +56,7 @@ export const DISCOVERY_POOL = [
     temp: 'Caliente',
     flavorNotes: ['Natilla de tiramisú', 'Dulzura aterciopelada', 'Café robusta oscuro', 'Cremoso'],
     tags: ['vietnam', 'hanoi', 'phin', 'huevo', 'dulce', 'postre', 'cremoso', 'asia'],
-    image: 'https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'La joya dulce de Vietnam: una crema batida espumosa de yema de huevo y leche condensada flotando sobre café negro intenso extraído en filtro Phin.',
     longDesc: 'Inventado por Nguyen Van Giang en el famoso Café Giảng durante la Guerra de Indochina cuando la leche fresca escaseaba. Sustituyó la leche por yema de huevo batida a punto de nieve con azúcar, creando una bebida similar a un tiramisú bebible que hoy fascina al mundo entero.',
     ingredients: [
@@ -94,7 +94,7 @@ export const DISCOVERY_POOL = [
     temp: 'Caliente',
     flavorNotes: ['Vainilla y cítrico', 'Leche caramelizada', 'Contraste visual de 4 franjas', 'Canela'],
     tags: ['canarias', 'tenerife', 'espana', 'licor 43', 'leche condensada', 'visual', 'dulce'],
-    image: 'https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'El café de cuatro capas más icónico de Tenerife: leche condensada en la base, Licor 43, espresso dorado y corona de microespuma con canela y limón.',
     longDesc: 'Se dice que un cliente habitual apodado "Barraco" pedía siempre este preparado especial en el Bar Imperial de Santa Cruz de Tenerife en los años 50. La diferencia de densidades crea un degradado perfecto en vaso estrecho de cristal.',
     ingredients: [
@@ -130,7 +130,7 @@ export const DISCOVERY_POOL = [
     temp: 'Caliente o con hielo',
     flavorNotes: ['Té negro astringente suave', 'Cremoso lácteo', 'Tostado de café', 'Bebida reconfortante'],
     tags: ['hong kong', 'yuenyeung', 'te con leche', 'cha chaan teng', 'fusion', 'frio o caliente'],
-    image: 'https://images.unsplash.com/photo-1577968897966-3d4325b36b61?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'La legendaria bebida de los comensales de Hong Kong: una unión armónica de café recién hecho con el tradicional té con leche condensada y evaporada.',
     longDesc: '"Yuenyeung" hace referencia al pato mandarín en la cultura cantonesa, símbolo de parejas unidas a pesar de sus diferencias. Es la bebida insigne de los tradicionales comensales Cha Chaan Teng que combina la cafeína vigorizante del café con los taninos florales del té negro.',
     ingredients: [
@@ -166,7 +166,7 @@ export const DISCOVERY_POOL = [
     temp: 'Muy caliente (95°C)',
     flavorNotes: ['Salado sutil', 'Queso fundente esponjoso', 'Tostado acaramelado', 'Calidez polar'],
     tags: ['suecia', 'finlandia', 'sami', 'queso', 'kaffeost', 'curioso', 'artico'],
-    image: 'https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1738197112505-f79710be93b5?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'La ancestral tradición sami de Laponia: dados de queso de cuajada horneado (Juustoleipä) sumergidos en café caliente que absorben los aromas como una esponja.',
     longDesc: 'Una de las costumbres cafeteras más fascinantes de Europa del Norte. En las heladas tundras árticas, el queso de reno o vaca se hornea previamente para crear una corteza tostada y se corta en dados dentro de la taza de abedul tallada (Kuksa) antes de verter café hirviendo.',
     ingredients: [
@@ -199,7 +199,7 @@ export const DISCOVERY_POOL = [
     temp: 'Caliente con corona fría',
     flavorNotes: ['Chocolate gianduja fundido', 'Cacao oscuro', 'Espresso denso', 'Nata fresca sedosa'],
     tags: ['turin', 'italia', 'bicerin', 'chocolate', 'historico', 'postre', 'clasico'],
-    image: 'https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1612183515105-8c737ba7585d?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'La histórica bebida de Turín adorada por Cavour y Alejandro Dumas: capas perfectas de chocolate espeso piamontés, café espresso y crema fresca.',
     longDesc: 'Servido ininterrumpidamente desde 1763 en la Piazza della Consolata de Turín, el Bicerin es una institución de la confitería piamontesa. A diferencia de un mocaccino común, el chocolate caliente artesanal se prepara denso como un pudding antes de recibir el espresso.',
     ingredients: [
@@ -234,7 +234,7 @@ export const DISCOVERY_POOL = [
     temp: '93°C',
     flavorNotes: ['Cuerpo redondo', 'Dulzor estable', 'Menos acidez punzante que el V60', 'Taza indulgente'],
     tags: ['japon', 'kalita', 'fondo plano', 'pour over', 'filtrado', 'uniforme'],
-    image: 'https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'El filtrado de fondo plano y tres agujeros: la cama de café queda nivelada y el agua la atraviesa de forma pareja, así que perdona los errores de vertido mucho mejor que un cono.',
     longDesc: 'A diferencia del V60, cuyo cono hace que el café se acumule en la punta, el Kalita Wave tiene base plana y tres orificios pequeños que regulan el caudal. El filtro ondulado toca las paredes solo por las crestas, de modo que el agua no se escapa por los lados. El resultado es una extracción más uniforme y una taza más difícil de estropear.',
     ingredients: [
@@ -270,7 +270,7 @@ export const DISCOVERY_POOL = [
     temp: '93°C el café; la leche nunca por encima de 65°C',
     flavorNotes: ['Cacao suave', 'Leche templada', 'Acidez domada', 'Final corto y limpio'],
     tags: ['espana', 'cortado', 'espresso', 'leche', 'clasico', 'rapido', 'barra'],
-    image: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1508088405209-fbd63b6a4f50?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'El café de media mañana de cualquier barra española: un espresso al que se le quita el filo con un golpe justo de leche, sin llegar a convertirlo en un café con leche.',
     longDesc: 'Cortar el café es exactamente eso: añadir la leche suficiente para redondear la amargura del espresso y ni una gota más. La proporción ronda el uno a uno, así que el café manda y la leche acompaña. Se sirve en vaso de cristal pequeño, que enfría menos que la loza fría y deja ver las dos capas antes de mezclarse.',
     ingredients: [
@@ -304,7 +304,7 @@ export const DISCOVERY_POOL = [
     temp: '94°C',
     flavorNotes: ['Aroma floral intacto', 'Acidez viva', 'Cuerpo ligero', 'Nitidez de fruta fresca'],
     tags: ['japon', 'flash brew', 'helado', 'filtrado', 'frio', 'aromatico', 'rapido'],
-    image: 'https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1504753793650-d4a2b783c15e?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'Filtrado en caliente directamente sobre hielo: se hace en tres minutos y conserva los aromas florales que el cold brew pierde por el camino.',
     longDesc: 'Es la respuesta japonesa al café frío, y es casi lo contrario del cold brew. En vez de macerar horas en frío —que extrae dulzor y cuerpo pero deja los aromas volátiles atrás—, aquí se extrae en caliente sobre hielo, que enfría la bebida de golpe y atrapa esos aromas antes de que se evaporen. Por eso sabe a la fruta del grano y no a café frío.',
     ingredients: [
@@ -338,7 +338,7 @@ export const DISCOVERY_POOL = [
     temp: '95°C',
     flavorNotes: ['Cereza pasa', 'Hibisco', 'Miel de caña', 'Muy baja en cafeína'],
     tags: ['yemen', 'etiopia', 'qishr', 'cascara', 'infusion', 'baja cafeina', 'alternativo'],
-    image: 'https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1495862433577-132cf20d7902?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'La cáscara seca de la cereza del café, infusionada como un té: sabe a fruta pasa y a hibisco, y lleva una fracción de la cafeína de un café.',
     longDesc: 'Durante siglos, en Yemen se bebió la cáscara antes que el grano: el qishr era la bebida de casa y el café, la exportación. Hoy la cascara vuelve a las tiendas de especialidad como subproducto aprovechado de la cosecha, lo que además evita tirar la pulpa. No sabe a café en absoluto, sino a infusión de fruta roja.',
     ingredients: [
@@ -372,7 +372,7 @@ export const DISCOVERY_POOL = [
     temp: 'Agua a 90°C, no hirviendo',
     flavorNotes: ['Cacao tostado', 'Cuerpo medio', 'Amargor limpio', 'Largo de beber'],
     tags: ['italia', 'americano', 'espresso', 'clasico', 'largo', 'sin leche'],
-    image: 'https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1458819714733-e5ab3d536722?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'Un espresso doble alargado con agua caliente: la forma italiana de servir un café largo sin recurrir a una extracción sobreextraída.',
     longDesc: 'Cuenta la historia que los soldados estadounidenses destinados en Italia encontraban el espresso demasiado concentrado y pedían que se lo rebajaran con agua. El resultado tiene el volumen de un café de filtro pero el carácter del espresso. La diferencia con un lungo es importante: el lungo pasa más agua por el café y se sobreextrae; el americano extrae bien y diluye después.',
     ingredients: [
@@ -406,7 +406,7 @@ export const DISCOVERY_POOL = [
     temp: '92°C en la cámara superior',
     flavorNotes: ['Taza transparente', 'Aromas florales marcados', 'Cuerpo sedoso', 'Dulzor limpio'],
     tags: ['sifon', 'vacio', 'japon', 'espectaculo', 'filtrado', 'avanzado', 'floral'],
-    image: 'https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1609050471053-8636409f9f5b?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'Dos cámaras de cristal, una llama y la presión del vapor: el café sube, se infusiona a temperatura constante y vuelve a bajar filtrado al enfriarse.',
     longDesc: 'La cafetera de vacío es del siglo XIX europeo, pero fueron las cafeterías japonesas las que la convirtieron en un ritual de precisión. El agua de la cámara inferior se calienta, el vapor la empuja hacia arriba, el café se infusiona por inmersión a temperatura estable —cosa que ningún goteo consigue— y al retirar el fuego el vacío lo devuelve abajo a través del filtro. Es inmersión y filtrado en el mismo aparato.',
     ingredients: [
@@ -442,7 +442,7 @@ export const DISCOVERY_POOL = [
     temp: '93°C el café; leche entre 60 y 65°C',
     flavorNotes: ['Leche dulce', 'Cacao con leche', 'Cuerpo sedoso', 'Café de fondo'],
     tags: ['italia', 'latte', 'leche', 'espresso', 'clasico', 'suave', 'desayuno'],
-    image: 'https://images.unsplash.com/photo-1577968897966-3d4325b36b61?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1570784331625-907b0c979f63?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'La bebida de leche por excelencia: un espresso doble y una buena cantidad de leche texturizada, con apenas un dedo de espuma por encima.',
     longDesc: 'En Italia el latte es cosa de casa y de desayuno, no de barra; pedir «un latte» en un bar italiano te traerá un vaso de leche. Lo que el mundo conoce como caffè latte se estandarizó fuera, y se distingue del cappuccino por la proporción: más leche líquida, menos espuma y una taza más grande. Es la base sobre la que se dibuja el latte art.',
     ingredients: [
@@ -476,7 +476,7 @@ export const DISCOVERY_POOL = [
     temp: '94°C',
     flavorNotes: ['Dulzor de inmersión', 'Taza limpia de filtro', 'Cuerpo medio', 'Muy constante'],
     tags: ['taiwan', 'clever', 'inmersion', 'filtrado', 'valvula', 'facil', 'constante'],
-    image: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1758221052634-33f352d1318b?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'Lo mejor de los dos mundos: el café macera en inmersión como en una prensa francesa, y al apoyarlo sobre la taza una válvula lo suelta a través de un filtro de papel.',
     longDesc: 'La gracia del Clever está en una válvula de silicona en la base que permanece cerrada mientras el embudo está en la encimera y se abre al apoyarlo sobre una taza. Eso permite controlar el tiempo de maceración con exactitud, cosa imposible en un goteo normal, y filtrar después los aceites y los posos. Es el método más difícil de hacer mal.',
     ingredients: [
@@ -511,7 +511,7 @@ export const DISCOVERY_POOL = [
     temp: '95°C para el goteo; se sirve sobre hielo',
     flavorNotes: ['Leche condensada', 'Robusta tostado oscuro', 'Chocolate amargo', 'Refrescante y denso'],
     tags: ['vietnam', 'phin', 'leche condensada', 'helado', 'robusta', 'dulce', 'asia'],
-    image: 'https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1765690835487-8da60d318d0f?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'El café de calle vietnamita: un goteo lentísimo de robusta tostado oscuro cayendo sobre leche condensada, removido y volcado en un vaso de hielo. Rinde unos 60ml de concentrado.',
     longDesc: 'Vietnam es el segundo productor de café del mundo y el primero de robusta, y esta es la forma en que se bebe allí. La leche condensada llegó con la colonización francesa, cuando la leche fresca no aguantaba el clima, y se quedó para siempre. El filtro phin gotea despacio a propósito: produce un concentrado casi de jarabe que la leche y el hielo equilibran.',
     ingredients: [
@@ -547,7 +547,7 @@ export const DISCOVERY_POOL = [
     temp: '94°C',
     flavorNotes: ['Raíz tostada', 'Caramelo amargo', 'Cuerpo espeso', 'Menos cafeína de lo que aparenta'],
     tags: ['nueva orleans', 'achicoria', 'francia', 'cafe au lait', 'menos cafeina', 'historico'],
-    image: 'https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1572286258217-40142c1c6a70?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'Café mezclado con raíz de achicoria tostada: nació de la escasez, se quedó por el sabor, y rebaja la cafeína sin rebajar el cuerpo.',
     longDesc: 'Los franceses empezaron a estirar el café con achicoria durante los bloqueos napoleónicos, y la costumbre viajó a Luisiana, donde se afianzó durante el asedio de la Guerra Civil. La raíz de achicoria tostada y molida no tiene cafeína pero aporta amargor y un cuerpo espeso que recuerda al café. En Nueva Orleans se sirve casi siempre a partes iguales con leche caliente, como café au lait.',
     ingredients: [
@@ -583,7 +583,7 @@ export const DISCOVERY_POOL = [
     temp: '93°C el café; la espuma a 60°C',
     flavorNotes: ['Espresso dominante', 'Toque lácteo', 'Amargor redondeado', 'Final persistente'],
     tags: ['italia', 'macchiato', 'espresso', 'manchado', 'clasico', 'corto', 'intenso'],
-    image: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1610219170948-60d096443dc1?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'Un espresso «manchado» con una cucharada de espuma de leche: lo justo para quitarle el pico al amargor sin que deje de ser un espresso.',
     longDesc: 'Macchiato significa manchado, y la mancha es literal: una cucharada de espuma sobre la crema. Nació en las barras italianas como forma de que el camarero distinguiera de un vistazo un espresso solo de uno con un toque de leche. No tiene nada que ver con el macchiato de caramelo de las cadenas, que es un latte con sirope.',
     ingredients: [
@@ -616,7 +616,7 @@ export const DISCOVERY_POOL = [
     temp: 'Agua fría; se sirve con mucho hielo',
     flavorNotes: ['Espuma densa y persistente', 'Tostado seco', 'Dulzor regulable', 'Muy refrescante'],
     tags: ['grecia', 'frappe', 'soluble', 'espuma', 'verano', 'helado', 'facil'],
-    image: 'https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1591933940638-d253adcdcb98?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'La bebida nacional griega del verano: café soluble batido con poquísima agua hasta formar una espuma densa, completado con agua fría y mucho hielo.',
     longDesc: 'Lo inventó por accidente Dimitris Vakondios en la Feria Internacional de Tesalónica de 1957: no tenía agua caliente para su café soluble y lo batió con agua fría en una coctelera de Nescafé que había en el estand. La espuma salió sola. Es uno de los poquísimos casos en que el café soluble no es un sustituto, sino el ingrediente correcto: el liofilizado es lo que hace esa espuma.',
     ingredients: [
@@ -654,7 +654,7 @@ export const DISCOVERY_POOL = [
     temp: '93°C',
     flavorNotes: ['Dulzor concentrado', 'Cacao denso', 'Acidez contenida', 'Cuerpo de jarabe'],
     tags: ['italia', 'napoles', 'ristretto', 'espresso', 'corto', 'concentrado', 'dulce'],
-    image: 'https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1579992357154-faf4bde95b3d?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'El espresso cortado a la mitad: la misma dosis de café pero deteniendo la extracción a los 20ml, cuando solo ha salido lo más dulce.',
     longDesc: 'Los compuestos de un café no se extraen todos a la vez. Primero salen los ácidos y los azúcares; después, el amargor y los astringentes. El ristretto corta la extracción antes de esa segunda fase, así que da una taza más corta, más densa y notablemente más dulce que un espresso normal, no más fuerte en el sentido de más amarga. En Nápoles es lo que te sirven si pides «un caffè» sin más.',
     ingredients: [
@@ -687,7 +687,7 @@ export const DISCOVERY_POOL = [
     temp: '93°C',
     flavorNotes: ['Taza limpia', 'Dulzor de galleta', 'Cuerpo ligero', 'Sin posos'],
     tags: ['alemania', 'melitta', 'filtro', 'historico', 'pour over', 'facil', 'papel'],
-    image: 'https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1522726336270-3a0053210f06?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'El invento que cambió el café doméstico: un ama de casa de Dresde agujereó una cazuela de latón, puso encima el papel secante del cuaderno de su hijo y se acabaron los posos.',
     longDesc: 'En 1908 Melitta Bentz patentó el primer filtro de café de papel, harta de los posos de la cafetera de tela; su primer modelo era redondo, y la forma cónica que hoy lleva su nombre llegó en 1937. Ese cono, con un orificio en la base —no tres como el Kalita, ni espiral como el V60—, es la referencia doméstica en media Europa. El agujero pequeño ralentiza el caudal, de modo que el método perdona la molienda y no exige una tetera de cuello de cisne.',
     ingredients: [
@@ -722,7 +722,7 @@ export const DISCOVERY_POOL = [
     temp: 'Café caliente volcado sobre hielo',
     flavorNotes: ['Cítrico punzante', 'Café tostado', 'Dulzor ligero', 'Muy refrescante'],
     tags: ['portugal', 'argelia', 'mazagran', 'limon', 'helado', 'historico', 'citrico'],
-    image: 'https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1592663527359-cf6642f54cff?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'Café frío con limón: la combinación que suena rara hasta que la pruebas, y que lleva bebiéndose en Portugal desde que los soldados franceses la trajeron de Argelia.',
     longDesc: 'La leyenda lo sitúa en el sitio de la fortaleza de Mazagran, en Argelia, hacia 1840: a los soldados franceses les quedaba café pero no leche, y lo alargaron con agua y limón para poder beberlo en el calor. De vuelta en Europa la receta arraigó sobre todo en Portugal, donde es un clásico de terraza en verano. El ácido cítrico realza la acidez natural del café en vez de taparla.',
     ingredients: [
@@ -760,7 +760,7 @@ export const DISCOVERY_POOL = [
     temp: 'Espresso caliente, agitado con hielo hasta enfriar',
     flavorNotes: ['Espuma de crema natural', 'Café intenso', 'Dulzor de licor', 'Final seco'],
     tags: ['londres', 'coctel', 'vodka', 'espresso', 'martini', 'noche', 'autor'],
-    image: 'https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1587663939437-9f9f1e8c9f82?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'El cóctel que Dick Bradsell improvisó en un bar del Soho cuando una clienta le pidió algo que la despertara y la animara a partes iguales.',
     longDesc: 'Bradsell lo creó a principios de los ochenta en Londres, con la máquina de espresso justo al lado de la estación de coctelería. La espuma que lo corona no lleva ni clara de huevo ni nata: es la crema del espresso, emulsionada por la agitación con hielo. Por eso el café tiene que ser recién extraído; con café frío o soluble, el cóctel sale plano y sin corona.',
     ingredients: [
@@ -798,7 +798,7 @@ export const DISCOVERY_POOL = [
     temp: '92°C',
     flavorNotes: ['Tostado marcado', 'Amargor presente', 'Cuerpo ligero', 'Aromas de cereal'],
     tags: ['italia', 'lungo', 'espresso', 'largo', 'clasico', 'intenso', 'amargo'],
-    image: 'https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'Un espresso al que se le deja pasar casi el doble de agua por el mismo café: más largo, más amargo y con un carácter tostado que no tiene el americano.',
     longDesc: 'Es la otra forma de alargar un espresso, y conviene no confundirla con el americano. En el lungo el agua extra atraviesa el mismo lecho de café, así que arrastra compuestos amargos que un espresso corto deja atrás: la bebida cambia de sabor, no solo de volumen. En el americano el agua se añade después y solo diluye. Ni uno es mejor que otro: son dos bebidas distintas que parten de la misma dosis.',
     ingredients: [
@@ -831,7 +831,7 @@ export const DISCOVERY_POOL = [
     temp: 'Agua llevada justo al hervor antes de voltear',
     flavorNotes: ['Cuerpo denso', 'Cacao tostado', 'Nada de acidez punzante', 'Fondo aterciopelado'],
     tags: ['napoles', 'italia', 'cuccumella', 'napolitana', 'historico', 'gravedad', 'denso'],
-    image: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1758221054731-744af4bf4d68?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'La cafetera que se da la vuelta: el agua hierve abajo, se voltea el aparato entero y el café se filtra por gravedad, sin presión ninguna.',
     longDesc: 'Antes de que la moka de Bialetti se adueñara de las cocinas italianas, en Nápoles se hacía el café con la cuccumella. No usa presión: se calienta el agua en el depósito inferior, y cuando sale vapor por el agujerito se gira el aparato ciento ochenta grados para que el agua baje por su propio peso a través del café. El resultado es más suave y menos metálico que el de una moka, más cercano a un filtrado que a un espresso.',
     ingredients: [
@@ -866,7 +866,7 @@ export const DISCOVERY_POOL = [
     temp: '93°C el café; leche a 60-65°C',
     flavorNotes: ['Cacao amargo', 'Leche dulce', 'Café de fondo', 'Textura de postre'],
     tags: ['chocolate', 'mocha', 'leche', 'espresso', 'clasico', 'dulce', 'cacao'],
-    image: 'https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1685384338018-1774719d5b69?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'Espresso, chocolate y leche texturizada en la misma taza: el café que convence a quien dice que no le gusta el café.',
     longDesc: 'El nombre viene del puerto yemení de Moca, que durante siglos exportó un café de notas achocolatadas tan características que la palabra acabó significando «café con chocolate». La diferencia entre un mocha decente y uno empalagoso está en usar chocolate de verdad, fundido y amargo, en vez de sirope dulce: el cacao tiene que discutir con el café, no taparlo.',
     ingredients: [
@@ -902,7 +902,7 @@ export const DISCOVERY_POOL = [
     temp: 'Justo por debajo del hervor, nunca a borbotones',
     flavorNotes: ['Tostado rotundo', 'Cuerpo fuerte', 'Amargor de leña', 'Aroma que llena la casa'],
     tags: ['percoladora', 'fuego', 'camping', 'historico', 'gruesa', 'intenso', 'clasico'],
-    image: 'https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1602094689189-a7cb72dc1ff9?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'La cafetera de la casa de campo: el agua hirviendo sube por un tubo central, se derrama sobre el café y vuelve a caer, una y otra vez.',
     longDesc: 'La percoladora funciona por recirculación: el agua caliente sube por el tubo, cae sobre la cesta de café y regresa al depósito, repitiendo el ciclo. Eso la convierte en el único método que pasa el mismo líquido varias veces por el café, y explica a la vez su mala fama entre baristas y el cariño que le tiene mucha gente. Hecha con cuidado —molienda gruesa y fuego bajo— da una taza intensa y perfectamente legible.',
     ingredients: [
@@ -936,7 +936,7 @@ export const DISCOVERY_POOL = [
     temp: 'Agua fría; el espresso se vuelca sobre el hielo',
     flavorNotes: ['Limpio y directo', 'Acidez marcada', 'Sin dulzor', 'Muy refrescante'],
     tags: ['corea', 'americano', 'helado', 'espresso', 'sin azucar', 'facil', 'rapido'],
-    image: 'https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1781056124343-5578abbd208f?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'Un espresso doble volcado sobre agua fría con mucho hielo. Sin leche, sin azúcar, sin más: en Corea del Sur se bebe a todas horas y en pleno invierno.',
     longDesc: 'Es la bebida de café más consumida en Corea del Sur, hasta el punto de tener apodo propio: «얼죽아» (eol-juk-a), abreviatura de «un americano helado aunque me muera de frío», que describe a quien lo pide en pleno invierno. Su virtud es que no esconde nada. Sin leche ni azúcar de por medio, un americano helado te dice exactamente cómo es el café que has usado, así que es la forma más honesta de probar un grano nuevo en verano.',
     ingredients: [
@@ -971,7 +971,7 @@ export const DISCOVERY_POOL = [
     temp: 'Preparado en moka, a fuego medio-bajo',
     flavorNotes: ['Cereal tostado', 'Pan recién hecho', 'Dulzor natural', 'Cero cafeína'],
     tags: ['italia', 'orzo', 'cebada', 'sin cafeina', 'alternativo', 'ninos', 'suave'],
-    image: 'https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1582768772255-7fb8066357ce?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'Cebada tostada y molida, preparada en la moka exactamente igual que el café: sin una gota de cafeína y con un dulzor de pan tostado que el café no tiene.',
     longDesc: 'En Italia el orzo no es un sucedáneo de emergencia sino una bebida con derecho propio: se pide en el bar como cualquier otro café y se sirve en la misma taza. Se popularizó durante las carestías del siglo XX y se quedó porque gusta. Al no llevar cafeína, es lo que se les da a los niños y lo que piden muchos adultos por la tarde.',
     ingredients: [
@@ -1006,7 +1006,7 @@ export const DISCOVERY_POOL = [
     temp: 'Cocción a fuego lento, sin hervor fuerte',
     flavorNotes: ['Cardamomo dominante', 'Café muy claro, casi té', 'Azafrán floral', 'Nada de amargor'],
     tags: ['arabia', 'qahwa', 'cardamomo', 'azafran', 'unesco', 'hospitalidad', 'ritual'],
-    image: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'Un café de tueste clarísimo cocido con cardamomo y azafrán, servido en tacitas sin asa: en la península arábiga no es una bebida, es el gesto de recibir a alguien.',
     longDesc: 'La Unesco declaró en 2015 el café árabe Patrimonio Cultural Inmaterial, no por la receta sino por lo que la rodea: quien recibe sirve siempre con la derecha, empezando por el invitado de más edad, y sigue rellenando la taza hasta que el invitado la mueve de lado a lado. El café en sí sorprende a cualquiera que espere un espresso: tueste tan claro que el líquido sale dorado, y el cardamomo mandando por encima del grano.',
     ingredients: [
@@ -1042,7 +1042,7 @@ export const DISCOVERY_POOL = [
     temp: 'Cocción a fuego lento, 8 minutos',
     flavorNotes: ['Raíz tostada', 'Regaliz suave', 'Amargor limpio', 'Sin cafeína'],
     tags: ['diente de leon', 'sin cafeina', 'raiz', 'herbolaria', 'alternativo', 'digestivo'],
-    image: 'https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1541469406036-71229832e06e?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'La raíz del diente de león, tostada hasta oscurecer y cocida como un café: amarga, terrosa y sin una pizca de cafeína.',
     longDesc: 'Es uno de los sustitutos del café más arraigados de Europa central, usado mucho antes de que lo adoptara la tienda de dietética. La raíz se tuesta hasta que oscurece y desarrolla, por la misma reacción de Maillard que el grano de café, compuestos tostados que imitan su amargor. No sabe igual que un café —nada sin cafeína lo hace— pero sí ocupa el mismo sitio en la taza de después de cenar.',
     ingredients: [

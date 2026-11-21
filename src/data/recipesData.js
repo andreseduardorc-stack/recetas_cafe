@@ -25,7 +25,7 @@ export const RECIPES_DATA = [
     temp: '92°C - 94°C',
     flavorNotes: ['Cuerpo denso', 'Crema avellana', 'Notas de cacao', 'Acidez brillante'],
     tags: ['espresso', 'intenso', 'crema', 'doppio', 'clasico', 'base', 'rapido'],
-    image: 'https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1615174111727-b165bfe654a3?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'La piedra angular del café moderno: una extracción corta y concentrada a 9 bares de presión con una crema dorada impecable.',
     longDesc: 'El espresso es el corazón de la cultura del café. Creado a principios del siglo XX en Italia, utiliza alta presión (9 bares) y agua caliente a punto exacto para extraer los aceites aromáticos solubles del grano en menos de 30 segundos.',
     ingredients: [
@@ -60,7 +60,7 @@ export const RECIPES_DATA = [
     temp: '60°C - 65°C (leche)',
     flavorNotes: ['Sedoso', 'Equilibrado', 'Dulzura láctea natural', 'Intensidad media-alta'],
     tags: ['leche', 'microespuma', 'flat white', 'espresso', 'australia', 'latte art'],
-    image: 'https://images.unsplash.com/photo-1577968897966-3d4325b36b61?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1612509590595-785e974ed690?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'Doble shot de espresso corto bañado con una microespuma aterciopelada de textura similar a la pintura húmeda.',
     longDesc: 'Nacido en las cafeterías de Melbourne y Wellington durante los años 80, el Flat White destaca por tener una proporción de café más pronunciada que un Latte y una capa de espuma mucho más fina y brillante que la del Cappuccino tradicional.',
     ingredients: [
@@ -95,7 +95,7 @@ export const RECIPES_DATA = [
     temp: '65°C',
     flavorNotes: ['Espuma aireada', 'Toques tostados', 'Chocolate con leche'],
     tags: ['cappuccino', 'clasico', 'espuma densa', 'desayuno', 'leche', 'italia'],
-    image: 'https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1570784332176-fdd73da66f03?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'La armonía perfecta en tres tercios iguales: espresso caliente, leche caliente y una corona esponjosa de espuma cremosa.',
     longDesc: 'Bautizado en honor al color de los hábitos de los frailes capuchinos en Italia, esta receta histórica combina la fuerza del café tostado con la delicadeza de una espuma espesa que retiene el calor y los aromas.',
     ingredients: [
@@ -129,7 +129,7 @@ export const RECIPES_DATA = [
     temp: '94°C',
     flavorNotes: ['Claridad cristalina', 'Notas florales', 'Cero amargor', 'Cuerpo liviano tipo té'],
     tags: ['chemex', 'filtrado', 'puro', 'claridad', 'elegante', 'pour over'],
-    image: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1771736385651-c071580a9d78?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'La taza más limpia y transparente del mundo gracias a sus filtros de papel un 30% más gruesos y su jarra cónica de borosilicato.',
     longDesc: 'Diseñada por un químico en 1941 y exhibida en el MoMA de Nueva York, la Chemex remueve aceites pesados y micropartículas produciendo un café limpio, aromático y sumamente balanceado.',
     ingredients: [
@@ -164,7 +164,7 @@ export const RECIPES_DATA = [
     temp: '91°C - 93°C',
     flavorNotes: ['Acidez jugosa', 'Dulzura brillante', 'Notas frutales nítidas', 'Complejidad floral'],
     tags: ['v60', 'hario', 'japon', 'campeon', 'kasuya', 'filtrado', 'artesanal'],
-    image: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1522992319-0365e5f11656?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'La técnica que ganó el World Brewers Cup: los primeros dos vertidos ajustan el balance dulce/ácido, y los últimos tres controlan la fuerza.',
     longDesc: 'El método 4:6 divide el total de agua en dos fases: el 40% inicial (120g en dos tandas) determina el perfil de acidez y dulzor, mientras que el 60% restante (180g en tres tandas iguales) define la intensidad del cuerpo.',
     ingredients: [
@@ -199,7 +199,7 @@ export const RECIPES_DATA = [
     temp: '98°C - 100°C',
     flavorNotes: ['Cuerpo completo y oleoso', 'Sabor profundo', 'Sin lodo ni posos'],
     tags: ['prensa francesa', 'french press', 'hoffmann', 'infusion', 'inmersion', 'facil'],
-    image: 'https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1587955245893-389f2215c6eb?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'Adiós a los posos terrosos: una técnica de infusión por inmersión sin bajar el émbolo hasta el fondo para máxima limpieza.',
     longDesc: 'El gurú mundial del café James Hoffmann revolucionó este método clásico demostrando que dejar decantar el café y remover la costra produce una taza con todo el cuerpo oleoso de la inmersión pero con una limpieza impensable.',
     ingredients: [
@@ -234,7 +234,7 @@ export const RECIPES_DATA = [
     temp: '85°C',
     flavorNotes: ['Intensidad limpia', 'Notas a caramelo dulce', 'Acidez jugosa'],
     tags: ['aeropress', 'campeonato', 'viaje', 'invertido', 'rapido', 'creativo'],
-    image: 'https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1759259639356-7c6e74eed1ec?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'El método portátil favorito de baristas y viajeros: versatilidad extrema usando presión de aire manual y método al revés.',
     longDesc: 'Inventado por el creador del frisbee Aerobie, la AeroPress combina inmersión total con filtrado a presión de émbolo. La técnica invertida evita que el agua gotee antes de tiempo, logrando una extracción uniforme y redonda.',
     ingredients: [
@@ -270,7 +270,7 @@ export const RECIPES_DATA = [
     temp: 'Agua caliente inicial a 70°C',
     flavorNotes: ['Robusto', 'Cacao amargo', 'Notas especiadas', 'Denso y reconfortante'],
     tags: ['moka', 'bialetti', 'cafetera italiana', 'casa', 'fuerte', 'tradicion'],
-    image: 'https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1522012188892-24beb302783d?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'El sabor tradicional de los hogares italianos llevado a la perfección profesional sin quemar el café ni generar amargor metálico.',
     longDesc: 'La cafetera Moka genera aproximadamente 1.5 bares de presión por vapor. El error más común en casa es poner agua fría a fuego alto, lo cual sobrecalienta el metal y "quema" el café antes de que salga el agua.',
     ingredients: [
@@ -304,7 +304,7 @@ export const RECIPES_DATA = [
     temp: 'Agua fría / Ambiente (4°C - 18°C)',
     flavorNotes: ['Acidez casi nula', 'Extrema dulzura', 'Notas a chocolate con leche y frutos secos'],
     tags: ['cold brew', 'frio', 'verano', 'hielo', 'dulce', 'maceracion', 'bajo en acidez'],
-    image: 'https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1549652127-2e5e59e86a7a?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'La reina de las bebidas frías: café infusionado en frío durante casi un día, con hasta 60% menos acidez y una suavidad incomparable.',
     longDesc: 'Al no utilizar agua caliente, los compuestos más ácidos y amargos del grano no se disuelven, mientras que los azúcares naturales y aceites aromáticos se extraen de forma pausada y sedosa.',
     ingredients: [
@@ -340,7 +340,7 @@ export const RECIPES_DATA = [
     temp: 'Frío / Hielo',
     flavorNotes: ['Efervescente', 'Amargor cítrico fresco', 'Herbal aromático', 'Ultra refrescante'],
     tags: ['tonic', 'espresso tonic', 'frio', 'coctel', 'refrescante', 'romero', 'verano'],
-    image: 'https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1625126590447-cb769384e1f0?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'La bebida que conquistó las cafeterías de especialidad del norte de Europa: burbujas refrescantes, quinina y crema de café suspendida.',
     longDesc: 'Inventado por Anne Lunell y Charles Nystrand en el café Koppi de Helsingborg, el espresso tonic ofrece una experiencia sensorial única con dos capas visuales y una efervescencia que amplifica las notas florales del café.',
     ingredients: [
@@ -376,7 +376,7 @@ export const RECIPES_DATA = [
     temp: 'Contraste frío (-15°C) y caliente (90°C)',
     flavorNotes: ['Vainilla cremosa', 'Contraste térmico', 'Dulce y amargo', 'Postre sublime'],
     tags: ['affogato', 'helado', 'gelato', 'postre', 'italia', 'espresso', 'dulce'],
-    image: 'https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1759259639356-6eee63241869?auto=format&fit=crop&w=800&q=80',
     shortDesc: '¿Es un postre o un café? Una bola de cremoso helado italiano "ahogada" bajo un torrente de espresso caliente recién preparado.',
     longDesc: '"Affogato" significa literalmente "ahogado" en italiano. Es el cierre de mesa más celebrado del Mediterráneo, donde la crema helada se funde lentamente emulsionando con los aceites calientes del café.',
     ingredients: [
@@ -412,7 +412,7 @@ export const RECIPES_DATA = [
     temp: 'Frío con hielo',
     flavorNotes: ['Vainilla aromática', 'Dulce balanceado', 'Sedosidad de la avena', 'Refrescante'],
     tags: ['iced', 'latte', 'frio', 'vainilla', 'avena', 'dulce', 'popular'],
-    image: 'https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1622322816396-4363b777eee7?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'La bebida más vendida en cafeterías de todo el mundo: espresso dulce con extracto de vainilla y leche de avena sobre abundante hielo.',
     longDesc: 'Una bebida fresca y sedosa donde la dulzura de la vainilla natural suaviza la intensidad del café, complementada por la cremosidad vegetal de la leche de avena especial para baristas.',
     ingredients: [
@@ -447,7 +447,7 @@ export const RECIPES_DATA = [
     temp: 'Caliente con capa de crema fría',
     flavorNotes: ['Whiskey añejo', 'Caramelo tostado', 'Crema suntuosa', 'Contraste frío-caliente'],
     tags: ['irish coffee', 'whiskey', 'crema', 'coctel caliente', 'irlanda', 'clasico', 'invierno'],
-    image: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'La leyenda de Foynes: café negro caliente endulzado con azúcar mascabado, whiskey de malta y una nube flotante de crema ligeramente batida.',
     longDesc: 'Creado por el chef Joe Sheridan en una gélida noche de invierno de 1943 para calentar a los pasajeros de un hidroavión que tuvo que regresar por tormenta, el Irish Coffee es uno de los cócteles más icónicos y respetados de la historia.',
     ingredients: [
@@ -521,7 +521,7 @@ export const RECIPES_DATA = [
     temp: 'Hervido a 95°C',
     flavorNotes: ['Piloncillo caramelizado', 'Canela en rama', 'Piel de naranja', 'Notas a barro'],
     tags: ['mexico', 'cafe de olla', 'piloncillo', 'canela', 'tradicional', 'especias', 'artesanal'],
-    image: 'https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'El sabor del hogar y la historia mexicana: infusionado en olla de barro con canela en raja, piloncillo oscuro y cáscara de naranja.',
     longDesc: 'Nacido en las fogatas de la Revolución Mexicana donde las "Adelitas" lo preparaban para dar energía y calidez a los soldados, este café tradicional adquiere notas terrosas inimitables gracias a la porosidad de las ollas de barro cocido.',
     ingredients: [
@@ -560,7 +560,7 @@ export const RECIPES_DATA = [
     temp: 'Leche fría con hielo y espuma a temperatura ambiente',
     flavorNotes: ['Espuma densa tipo merengue', 'Caramelo toffee', 'Contraste lácteo'],
     tags: ['dalgona', 'corea', 'viral', 'batido', 'espumoso', 'facil', 'dulce'],
-    image: 'https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1787099819007-d1eb3c3925eb?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'El fenómeno viral de internet: una crema dorada y esponjosa tipo merengue que flota grácilmente sobre un vaso de leche fría con hielo.',
     longDesc: 'Popularizado en Corea del Sur durante el confinamiento de 2020 por el actor Jung Il-woo, su nombre rinde homenaje al dulce tradicional callejero coreano "dalgona" por su textura aireada y sabor a caramelo esponjoso.',
     ingredients: [
@@ -634,7 +634,7 @@ export const RECIPES_DATA = [
     temp: 'Caliente',
     flavorNotes: ['Leche caramelizada', 'Contraste visual', 'Dulzura potente', 'Postre energizante'],
     tags: ['bombon', 'espana', 'valencia', 'leche condensada', 'dulce', 'espresso', 'clasico'],
-    image: 'https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1705952285570-113e76f63fb0?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'El clásico dulce valenciano: dos capas perfectamente divididas en vaso de chupito con densa leche condensada abajo y café solo arriba.',
     longDesc: 'Nacido en la costa este de España, el Café Bombón deleita por su sencillez y la dramática separación de densidades que se produce naturalmente al verter un café caliente sobre la espesura azucarada de la leche condensada.',
     ingredients: [
@@ -668,7 +668,7 @@ export const RECIPES_DATA = [
     temp: '85°C',
     flavorNotes: ['Cremoso como un latte', 'Sin lácteos azucarados', 'Energía cetogénica', 'Nutritivo'],
     tags: ['keto', 'bulletproof', 'energia', 'ayuno', 'salud', 'mct', 'ghee', 'desayuno'],
-    image: 'https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1610889556528-9a770e32642f?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'La bebida estrella del biohacking y la dieta keto: café de alta calidad emulsionado con grasas saludables para saciedad y claridad mental sostenida.',
     longDesc: 'Inspirado en el tradicional té con mantequilla de yak que beben los sherpas en las montañas del Himalaya, esta receta emulsifica ácidos grasos de cadena media (MCT) que el hígado convierte rápidamente en cuerpos cetónicos.',
     ingredients: [
@@ -706,7 +706,7 @@ export const RECIPES_DATA = [
     temp: 'Frío de 3 capas',
     flavorNotes: ['Umami vegetal', 'Notas terrosas nobles', 'Cremoso', 'Toque tostado de espresso'],
     tags: ['matcha', 'fusion', 'te verde', 'espresso', 'antioxidante', 'tres capas', 'frio', 'salud'],
-    image: 'https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1531835207745-506a1bc035d8?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'La fascinante trifecta tricolor: una capa verde esmeralda de matcha ceremonial, leche de avena cremosa y un shot flotante de espresso.',
     longDesc: 'Una de las bebidas más fotogénicas y energizantes del mundo moderno, combinando la L-teanina calmante y antioxidante del té verde matcha japonés con el impulso lúcido de la cafeína del espresso de especialidad.',
     ingredients: [
@@ -745,7 +745,7 @@ export const RECIPES_DATA = [
     temp: 'Frío helado con densa espuma batida',
     flavorNotes: ['Espuma aterciopelada', 'Espresso frío puro', 'Dulzura sutil', 'Sin leche'],
     tags: ['shakerato', 'italia', 'coctelera', 'hielo', 'espuma', 'verano', 'puro', 'sin leche'],
-    image: 'https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1561641377-f7456d23aa9b?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'La elegancia romana del verano: café espresso caliente agitado con furia en coctelera con hielo, servido en copa Martini.',
     longDesc: 'Cuando el calor azota las calles de Roma y Florencia, los baristas no añaden leche: introducen el espresso recién extraído con sirope en una coctelera Boston con abundante hielo macizo y lo baten vigorosamente, creando una crema helada densa como la cerveza Guinness.',
     ingredients: [
@@ -784,7 +784,7 @@ export const RECIPES_DATA = [
     temp: '65°C',
     flavorNotes: ['Cardamomo', 'Jengibre picante', 'Pimienta negra', 'Canela', 'Doble dosis de energía'],
     tags: ['chai', 'dirty chai', 'especias', 'te negro', 'otono', 'latte', 'intenso'],
-    image: 'https://images.unsplash.com/photo-1577968897966-3d4325b36b61?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'La colisión perfecta entre Oriente y Occidente: un reconfortante Masala Chai indio cargado con un shot "sucio" de café espresso.',
     longDesc: 'Nacido en las cafeterías alternativas de Londres cuando un barista vertió por accidente un shot de espresso dentro de un vaso de té chai con leche. El cliente quedó fascinado con la combinación de las especias picantes de la India y la profundidad del café.',
     ingredients: [
@@ -832,7 +832,7 @@ export const RECIPES_DATA = [
       "tradicional",
       "intenso"
     ],
-    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=800&q=80",
     "shortDesc": "La bebida sagrada de Touba: granos de café tostados con pimienta de Guinea (Djar) y clavo de olor con un remate especiado y medicinal.",
     "longDesc": "Creado a finales del siglo XIX por el líder sufí Cheikh Amadou Bamba, el Café Touba combina café Robusta tostado muy oscuro con \"djar\" (semillas secas de Xylopia aethiopica) molidas. Se prepara mediante filtrado por goteo tradicional en bolsa de tela pasando el líquido de jarra en jarra para oxigenar.",
     "ingredients": [
@@ -902,7 +902,7 @@ export const RECIPES_DATA = [
       "cremoso",
       "asia"
     ],
-    "image": "https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=800&q=80",
     "shortDesc": "La joya dulce de Vietnam: una crema batida espumosa de yema de huevo y leche condensada flotando sobre café negro intenso extraído en filtro Phin.",
     "longDesc": "Inventado por Nguyen Van Giang en el famoso Café Giảng durante la Guerra de Indochina cuando la leche fresca escaseaba. Sustituyó la leche por yema de huevo batida a punto de nieve con azúcar, creando una bebida similar a un tiramisú bebible que hoy fascina al mundo entero.",
     "ingredients": [
@@ -979,7 +979,7 @@ export const RECIPES_DATA = [
       "visual",
       "dulce"
     ],
-    "image": "https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=800&q=80",
     "shortDesc": "El café de cuatro capas más icónico de Tenerife: leche condensada en la base, Licor 43, espresso dorado y corona de microespuma con canela y limón.",
     "longDesc": "Se dice que un cliente habitual apodado \"Barraco\" pedía siempre este preparado especial en el Bar Imperial de Santa Cruz de Tenerife en los años 50. La diferencia de densidades crea un degradado perfecto en vaso estrecho de cristal.",
     "ingredients": [
@@ -1053,7 +1053,7 @@ export const RECIPES_DATA = [
       "fusion",
       "frio o caliente"
     ],
-    "image": "https://images.unsplash.com/photo-1577968897966-3d4325b36b61?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80",
     "shortDesc": "La legendaria bebida de los comensales de Hong Kong: una unión armónica de café recién hecho con el tradicional té con leche condensada y evaporada.",
     "longDesc": "\"Yuenyeung\" hace referencia al pato mandarín en la cultura cantonesa, símbolo de parejas unidas a pesar de sus diferencias. Es la bebida insigne de los tradicionales comensales Cha Chaan Teng que combina la cafeína vigorizante del café con los taninos florales del té negro.",
     "ingredients": [
@@ -1123,7 +1123,7 @@ export const RECIPES_DATA = [
       "curioso",
       "artico"
     ],
-    "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1738197112505-f79710be93b5?auto=format&fit=crop&w=800&q=80",
     "shortDesc": "La ancestral tradición sami de Laponia: dados de queso de cuajada horneado (Juustoleipä) sumergidos en café caliente que absorben los aromas como una esponja.",
     "longDesc": "Una de las costumbres cafeteras más fascinantes de Europa del Norte. En las heladas tundras árticas, el queso de reno o vaca se hornea previamente para crear una corteza tostada y se corta en dados dentro de la taza de abedul tallada (Kuksa) antes de verter café hirviendo.",
     "ingredients": [
