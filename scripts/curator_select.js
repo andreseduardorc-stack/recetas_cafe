@@ -36,3 +36,19 @@ function nombrar(candidata) {
   }
   return 'una candidata sin nombre';
 }
+
+/**
+ * La forma en que el bot compara nombres para detectar duplicados: minúsculas, sin
+ * diacríticos y sin nada que no sea letra o dígito. Vivía en `auto_curator.js`; está aquí
+ * para que las pruebas usen la función real y no una copia que pueda divergir.
+ *
+ * @param {string} texto
+ * @returns {string}
+ */
+export function normalizarNombre(texto) {
+  return String(texto)
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9]/g, '');
+}
