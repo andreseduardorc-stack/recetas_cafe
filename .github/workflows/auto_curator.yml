@@ -27,6 +27,10 @@ jobs:
       - name: Instalar dependencias
         run: npm ci
 
+      # Si el validador de esquema está roto, el bot no llega a tocar recipesData.js
+      - name: Ejecutar pruebas del validador
+        run: npm test
+
       - name: Ejecutar Bot Curador de Recetas
         run: npm run curate
 
