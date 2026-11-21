@@ -3,6 +3,9 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { execSync } from 'node:child_process';
 
+import { validateAll } from './recipe_schema.js';
+import { elegirCandidata } from './curator_select.js';
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
@@ -237,6 +240,18 @@ async function runAutoCurator() {
     process.exit(1);
   }
 
+  // Si el validador rechaza lo que ya está publicado, el esquema está mal deducido:
+  // sobra una regla. Se para antes de escribir nada.
+  const { RECIPES_DATA } = await import('../src/data/recipesData.js');
+  const publicadas = validateAll(RECIPES_DATA);
+  if (!publicadas.ok) {
+    console.error('❌ El validador rechaza recetas que ya están publicadas.');
+    console.error('   El fallo está en el esquema, no en la receta nueva. No se escribe nada.');
+    for (const error of publicadas.errors) console.error(`   · ${error}`);
+    process.exit(1);
+  }
+  console.log(`✔️  Esquema conforme con las ${RECIPES_DATA.length} recetas publicadas.`);
+
   let fileContent = fs.readFileSync(recipesFilePath, 'utf-8');
 
   // Match existing IDs and names (support both raw key and quoted key)
@@ -257,8 +272,21 @@ async function runAutoCurator() {
     return;
   }
 
-  // Select next candidate
-  const toAdd = candidates[0];
+  // Se queda con la primera candidata que pasa el validador; las demás se descartan
+  // con su motivo a la vista en el log.
+  const { elegida: toAdd, descartes } = elegirCandidata(candidates);
+
+  for (const descarte of descartes) {
+    console.warn(`⚠️ Descartada "${descarte.nombre}": ${descarte.errores.join('; ')}`);
+  }
+
+  if (!toAdd) {
+    console.error(
+      `❌ Ninguna de las ${descartes.length} candidatas pasó el validador. No se añade nada.`,
+    );
+    process.exit(1);
+  }
+
   console.log(`🎯 Seleccionada para incorporar hoy: "${toAdd.name}" (${toAdd.origin})`);
 
   // Target the end bracket of RECIPES_DATA
