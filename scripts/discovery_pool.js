@@ -1,4 +1,6 @@
-// Pool de descubrimiento del bot curador: las recetas que todavía no están publicadas.
+// Pool de descubrimiento del bot curador: el catálogo del que saca candidatas.
+// Ojo: no es una cola. Las recetas ya publicadas siguen aquí; el bot las filtra en
+// cada ejecución comparando contra `recipesData.js`.
 // Solo datos. Las reglas de forma están en `recipe_schema.js`; la prueba que vigila este
 // archivo, en `discovery_pool.test.js`.
 
@@ -311,8 +313,8 @@ export const DISCOVERY_POOL = [
       { item: 'Hielo en cubos macizos, dentro de la jarra', amount: '100g', baseQty: 100, unit: 'g' }
     ],
     steps: [
-      'Pon los 100g de hielo directamente en la jarra, debajo del filtro. Esa es la clave del método: el café cae sobre el hielo.',
-      'Coloca el filtro de papel y enjuágalo con agua caliente; vacía la jarra del agua del enjuague sin quitar el hielo.',
+      'Coloca el filtro de papel, enjuágalo con agua caliente y vacía la jarra por completo.',
+      'Pon ahora los 100g de hielo en la jarra, debajo del filtro. Esa es la clave del método: el café cae sobre el hielo, y el hielo tiene que estar entero cuando empiece a caer.',
       'Añade los 20g de café molido medio-fino.',
       'Vierte 40ml de agua para la preinfusión y espera 30 segundos.',
       'Completa hasta los 200ml en círculos lentos. El café caerá caliente y se enfriará al instante al tocar el hielo.',
@@ -342,7 +344,7 @@ export const DISCOVERY_POOL = [
     ingredients: [
       { item: 'Cascara seca (cáscara de cereza de café)', amount: '10g', baseQty: 10, unit: 'g' },
       { item: 'Agua filtrada a 95°C', amount: '250ml', baseQty: 250, unit: 'ml' },
-      { item: 'Jengibre fresco rallado o canela en rama', amount: 'Al gusto (opcional)', baseQty: 2, unit: 'g' }
+      { item: 'Jengibre fresco rallado o canela en rama (opcional)', amount: 'Al gusto', baseQty: 2, unit: 'g' }
     ],
     steps: [
       'Calienta el agua hasta los 95°C, justo antes del hervor pleno.',
@@ -385,7 +387,7 @@ export const DISCOVERY_POOL = [
       'Vierte el espresso sobre el agua, nunca al revés: así la crema queda arriba en vez de deshacerse.',
       'No lo remuevas antes de servir; la primera impresión aromática está en esa capa de crema.'
     ],
-    baristaTip: 'El orden del vertido es lo único que separa un americano decente de uno turbio. Agua primero, café después, siempre.',
+    baristaTip: 'El orden del vertido es lo único que separa un americano decente de uno turbio. Agua primero, café después, siempre. Y ojo: la versión helada no es esta con hielo encima, porque lleva más agua y se monta al revés.',
     source: 'Tradición cafetera italiana de posguerra'
   },
   {
@@ -504,29 +506,29 @@ export const DISCOVERY_POOL = [
     timeMinutes: 6,
     grindSize: 'Media-gruesa (Filtro Phin)',
     ratio: '1 parte de leche condensada por 2 de café concentrado',
-    coffeeGrams: 25,
-    waterMl: 60,
+    coffeeGrams: 20,
+    waterMl: 100,
     temp: '95°C para el goteo; se sirve sobre hielo',
     flavorNotes: ['Leche condensada', 'Robusta tostado oscuro', 'Chocolate amargo', 'Refrescante y denso'],
     tags: ['vietnam', 'phin', 'leche condensada', 'helado', 'robusta', 'dulce', 'asia'],
     image: 'https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=800&q=80',
-    shortDesc: 'El café de calle vietnamita: un goteo lentísimo de robusta tostado oscuro cayendo sobre leche condensada, removido y volcado en un vaso de hielo.',
+    shortDesc: 'El café de calle vietnamita: un goteo lentísimo de robusta tostado oscuro cayendo sobre leche condensada, removido y volcado en un vaso de hielo. Rinde unos 60ml de concentrado.',
     longDesc: 'Vietnam es el segundo productor de café del mundo y el primero de robusta, y esta es la forma en que se bebe allí. La leche condensada llegó con la colonización francesa, cuando la leche fresca no aguantaba el clima, y se quedó para siempre. El filtro phin gotea despacio a propósito: produce un concentrado casi de jarabe que la leche y el hielo equilibran.',
     ingredients: [
-      { item: 'Café vietnamita robusta de tueste oscuro, molido medio-grueso', amount: '25g', baseQty: 25, unit: 'g' },
-      { item: 'Agua a 95°C', amount: '60ml', baseQty: 60, unit: 'ml' },
+      { item: 'Café vietnamita robusta de tueste oscuro, molido medio-grueso', amount: '20g', baseQty: 20, unit: 'g' },
+      { item: 'Agua a 95°C', amount: '100ml', baseQty: 100, unit: 'ml' },
       { item: 'Leche condensada', amount: '30ml', baseQty: 30, unit: 'ml' },
       { item: 'Hielo en cubos', amount: '1 vaso lleno', baseQty: 8, unit: 'cubos' }
     ],
     steps: [
       'Pon los 30ml de leche condensada en el fondo del vaso donde vas a gotear.',
-      'Coloca el filtro phin encima del vaso y añade los 25g de café molido, sin apretarlo demasiado.',
-      'Enrosca el disco perforado sobre el café y vierte 20ml de agua para la preinfusión. Espera 30 segundos.',
-      'Completa con los 40ml de agua restantes y tapa. El goteo debe durar entre 4 y 5 minutos.',
+      'Coloca el filtro phin encima del vaso y añade los 20g de café molido, sin apretarlo demasiado.',
+      'Enrosca el disco perforado sobre el café y vierte 25ml de agua para la preinfusión. Espera 30 segundos.',
+      'Completa con los 75ml de agua restantes y tapa. El goteo debe durar entre 4 y 5 minutos.',
       'Retira el phin y remueve enérgicamente hasta que la leche condensada se integre del todo y el café tome color caramelo.',
       'Vuélcalo en un vaso alto lleno de hielo y remueve una vez más.'
     ],
-    baristaTip: 'Si gotea en menos de tres minutos, has apretado poco el disco o molido demasiado grueso: el resultado será aguado. El phin lento es la receta.',
+    baristaTip: 'El café molido retiene cerca de 2ml de agua por gramo, así que de los 100ml que entran salen unos 60. Si pones menos agua creyendo que concentras más, lo que consigues es quedarte sin bebida.',
     source: 'Tradición cafetera del sur de Vietnam'
   },
   {
@@ -551,7 +553,7 @@ export const DISCOVERY_POOL = [
     ingredients: [
       { item: 'Mezcla de café tostado oscuro y achicoria (aproximadamente 70/30)', amount: '30g', baseQty: 30, unit: 'g' },
       { item: 'Agua filtrada a 94°C', amount: '450ml', baseQty: 450, unit: 'ml' },
-      { item: 'Leche entera caliente, para servirlo au lait', amount: '200ml (opcional)', baseQty: 200, unit: 'ml' }
+      { item: 'Leche entera caliente, para servirlo au lait (opcional)', amount: '200ml', baseQty: 200, unit: 'ml' }
     ],
     steps: [
       'Muele la mezcla de café y achicoria a tamaño medio-grueso, como para prensa francesa.',
@@ -587,11 +589,11 @@ export const DISCOVERY_POOL = [
     ingredients: [
       { item: 'Café en grano de tueste medio-oscuro', amount: '18g', baseQty: 18, unit: 'g' },
       { item: 'Espresso doble recién extraído', amount: '36ml', baseQty: 36, unit: 'ml' },
-      { item: 'Leche entera, solo para la espuma', amount: '15ml', baseQty: 15, unit: 'ml' }
+      { item: 'Leche entera (textura 50ml, usa solo una cucharada)', amount: '15ml de espuma', baseQty: 15, unit: 'ml' }
     ],
     steps: [
       'Calienta la taza de espresso y extrae un doble de 36ml.',
-      'Textura una cantidad pequeña de leche; con 50ml en la jarra tendrás espuma de sobra aunque solo uses una cucharada.',
+      'Texturiza una cantidad pequeña de leche: pon 50ml en la jarra aunque solo vayas a usar una cucharada, porque con menos la lanceta no forma remolino.',
       'Golpea y gira la jarra para que la espuma quede fina y brillante.',
       'Deposita una cucharada de espuma en el centro de la crema, sin remover.',
       'Sírvelo inmediatamente: la mancha se deshace en menos de un minuto.'
@@ -621,9 +623,9 @@ export const DISCOVERY_POOL = [
       { item: 'Café soluble liofilizado', amount: '2 cucharaditas (6g)', baseQty: 6, unit: 'g' },
       { item: 'Agua fría para batir', amount: '30ml', baseQty: 30, unit: 'ml' },
       { item: 'Agua fría para completar', amount: '150ml', baseQty: 150, unit: 'ml' },
-      { item: 'Azúcar', amount: 'Al gusto (de 0 a 2 cucharaditas)', baseQty: 8, unit: 'g' },
+      { item: 'Azúcar (al gusto, de 0 a 2 cucharaditas)', amount: 'Al gusto', baseQty: 8, unit: 'g' },
       { item: 'Hielo en cubos', amount: '1 vaso lleno', baseQty: 8, unit: 'cubos' },
-      { item: 'Leche evaporada o entera', amount: '30ml (opcional)', baseQty: 30, unit: 'ml' }
+      { item: 'Leche evaporada o entera (opcional)', amount: '30ml', baseQty: 30, unit: 'ml' }
     ],
     steps: [
       'Pon en una coctelera el café soluble, el azúcar y solo los 30ml de agua fría.',
@@ -633,7 +635,7 @@ export const DISCOVERY_POOL = [
       'Completa despacio con los 150ml de agua fría por el borde del vaso, para no deshacer la espuma.',
       'Añade la leche si lo quieres «me gála», y sírvelo con pajita: el frappé se bebe desde abajo.'
     ],
-    baristaTip: 'La proporción de agua al batir es lo único que importa: con más de 30ml no monta. Si no tienes coctelera, un bote de cristal con tapa hace el mismo trabajo.',
+    baristaTip: 'La clave está en batir con muy poca agua: cuanta más eches, menos cuerpo tendrá la espuma. Si no tienes coctelera, un bote de cristal con tapa hace el mismo trabajo.',
     source: 'Origen documentado en la Feria Internacional de Tesalónica de 1957'
   },
   {
@@ -645,7 +647,7 @@ export const DISCOVERY_POOL = [
     difficulty: 'Intermedio',
     time: '2 min',
     timeMinutes: 2,
-    grindSize: 'Fina, algo más que para espresso',
+    grindSize: 'Fina, más fina que para espresso',
     ratio: '1:1 (18g de café y 20ml de bebida)',
     coffeeGrams: 18,
     waterMl: 20,
@@ -687,7 +689,7 @@ export const DISCOVERY_POOL = [
     tags: ['alemania', 'melitta', 'filtro', 'historico', 'pour over', 'facil', 'papel'],
     image: 'https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'El invento que cambió el café doméstico: un ama de casa de Dresde agujereó una cazuela de latón, puso encima el papel secante del cuaderno de su hijo y se acabaron los posos.',
-    longDesc: 'En 1908 Melitta Bentz patentó el primer filtro de café de papel, harta de los posos de la cafetera de tela. Su cono con un solo orificio en la base —no tres como el Kalita, ni espiral como el V60— sigue fabricándose igual y es la referencia doméstica en media Europa. El agujero pequeño ralentiza el caudal, de modo que el método perdona la molienda y no exige una tetera de cuello de cisne.',
+    longDesc: 'En 1908 Melitta Bentz patentó el primer filtro de café de papel, harta de los posos de la cafetera de tela; su primer modelo era redondo, y la forma cónica que hoy lleva su nombre llegó en 1937. Ese cono, con un orificio en la base —no tres como el Kalita, ni espiral como el V60—, es la referencia doméstica en media Europa. El agujero pequeño ralentiza el caudal, de modo que el método perdona la molienda y no exige una tetera de cuello de cisne.',
     ingredients: [
       { item: 'Café de especialidad de tueste medio', amount: '20g', baseQty: 20, unit: 'g' },
       { item: 'Agua filtrada a 93°C', amount: '320ml', baseQty: 320, unit: 'ml' },
@@ -728,7 +730,7 @@ export const DISCOVERY_POOL = [
       { item: 'Espresso doble recién extraído', amount: '36ml', baseQty: 36, unit: 'ml' },
       { item: 'Zumo de limón recién exprimido', amount: '15ml', baseQty: 15, unit: 'ml' },
       { item: 'Agua fría', amount: '100ml', baseQty: 100, unit: 'ml' },
-      { item: 'Azúcar o jarabe de caña', amount: '10ml al gusto', baseQty: 10, unit: 'ml' },
+      { item: 'Azúcar o jarabe de caña (al gusto)', amount: '10ml', baseQty: 10, unit: 'ml' },
       { item: 'Hielo y una rodaja de limón', amount: '1 vaso lleno', baseQty: 6, unit: 'cubos' }
     ],
     steps: [
@@ -753,7 +755,7 @@ export const DISCOVERY_POOL = [
     timeMinutes: 5,
     grindSize: 'Fina (Espresso)',
     ratio: '50ml de vodka, 30ml de espresso y 10ml de licor de café',
-    coffeeGrams: 18,
+    coffeeGrams: 9,
     waterMl: 30,
     temp: 'Espresso caliente, agitado con hielo hasta enfriar',
     flavorNotes: ['Espuma de crema natural', 'Café intenso', 'Dulzor de licor', 'Final seco'],
@@ -762,7 +764,7 @@ export const DISCOVERY_POOL = [
     shortDesc: 'El cóctel que Dick Bradsell improvisó en un bar del Soho cuando una clienta le pidió algo que la despertara y la animara a partes iguales.',
     longDesc: 'Bradsell lo creó a principios de los ochenta en Londres, con la máquina de espresso justo al lado de la estación de coctelería. La espuma que lo corona no lleva ni clara de huevo ni nata: es la crema del espresso, emulsionada por la agitación con hielo. Por eso el café tiene que ser recién extraído; con café frío o soluble, el cóctel sale plano y sin corona.',
     ingredients: [
-      { item: 'Café en grano de tueste medio-oscuro', amount: '18g', baseQty: 18, unit: 'g' },
+      { item: 'Café en grano de tueste medio-oscuro', amount: '9g', baseQty: 9, unit: 'g' },
       { item: 'Espresso recién extraído', amount: '30ml', baseQty: 30, unit: 'ml' },
       { item: 'Vodka', amount: '50ml', baseQty: 50, unit: 'ml' },
       { item: 'Licor de café', amount: '10ml', baseQty: 10, unit: 'ml' },
@@ -777,7 +779,7 @@ export const DISCOVERY_POOL = [
       'Cuela dos veces, con el colador de la coctelera y uno fino encima, para que no pasen astillas de hielo.',
       'Deja reposar diez segundos a que suba la espuma y coloca los tres granos de café en el centro.'
     ],
-    baristaTip: 'Los tres granos no son adorno sin más: en la tradición coctelera representan salud, riqueza y felicidad, y van siempre en número impar.',
+    baristaTip: 'Los tres granos van siempre en número impar, por la misma superstición coctelera que manda poner tres en la sambuca. Y no son solo adorno: al acercarte la copa, el aroma del grano entero llega antes que el del cóctel.',
     source: 'Creación atribuida a Dick Bradsell, Londres, años ochenta'
   },
   {
@@ -790,23 +792,23 @@ export const DISCOVERY_POOL = [
     time: '3 min',
     timeMinutes: 3,
     grindSize: 'Fina, algo más gruesa que para espresso',
-    ratio: '1:5 (18g de café y 90ml de bebida)',
+    ratio: '1:3,5 (18g de café y 65ml de bebida)',
     coffeeGrams: 18,
-    waterMl: 90,
+    waterMl: 65,
     temp: '92°C',
     flavorNotes: ['Tostado marcado', 'Amargor presente', 'Cuerpo ligero', 'Aromas de cereal'],
     tags: ['italia', 'lungo', 'espresso', 'largo', 'clasico', 'intenso', 'amargo'],
     image: 'https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=800&q=80',
-    shortDesc: 'Un espresso al que se le deja pasar el triple de agua por el mismo café: más largo, más amargo y con un carácter tostado que no tiene el americano.',
+    shortDesc: 'Un espresso al que se le deja pasar casi el doble de agua por el mismo café: más largo, más amargo y con un carácter tostado que no tiene el americano.',
     longDesc: 'Es la otra forma de alargar un espresso, y conviene no confundirla con el americano. En el lungo el agua extra atraviesa el mismo lecho de café, así que arrastra compuestos amargos que un espresso corto deja atrás: la bebida cambia de sabor, no solo de volumen. En el americano el agua se añade después y solo diluye. Ni uno es mejor que otro: son dos bebidas distintas que parten de la misma dosis.',
     ingredients: [
       { item: 'Café en grano de tueste medio', amount: '18g', baseQty: 18, unit: 'g' },
-      { item: 'Agua a 92°C a través del portafiltro', amount: '90ml de bebida', baseQty: 90, unit: 'ml' }
+      { item: 'Agua a 92°C a través del portafiltro', amount: '65ml de bebida', baseQty: 65, unit: 'ml' }
     ],
     steps: [
-      'Muele los 18g algo más grueso que para espresso: si no, 90ml tardarán demasiado y saldrá quemado.',
+      'Muele los 18g algo más grueso que para espresso: si no, 65ml tardarán demasiado y saldrá quemado.',
       'Distribuye y prensa como siempre.',
-      'Arranca la extracción y deja correr hasta los 90ml de bebida en taza, entre 45 y 60 segundos.',
+      'Arranca la extracción y deja correr hasta los 65ml de bebida en taza, entre 40 y 50 segundos.',
       'Observa el color del chorro: cuando se vuelve casi transparente ya no aporta nada bueno, así que corta ahí aunque no hayas llegado al peso.',
       'Sirve en taza mediana precalentada.'
     ],
@@ -852,7 +854,7 @@ export const DISCOVERY_POOL = [
     name: 'Caffè Mocha (Café con Chocolate)',
     category: 'clasicos',
     categoryName: 'Clásicos de Cafetería',
-    origin: 'Nombre tomado del puerto de Moca, en Yemen',
+    origin: 'Moca, Yemen (de donde viene el nombre)',
     difficulty: 'Fácil',
     time: '5 min',
     timeMinutes: 5,
@@ -872,7 +874,7 @@ export const DISCOVERY_POOL = [
       { item: 'Espresso doble recién extraído', amount: '36ml', baseQty: 36, unit: 'ml' },
       { item: 'Chocolate negro al 70% fundido con un poco de leche', amount: '30ml', baseQty: 30, unit: 'ml' },
       { item: 'Leche entera o de avena', amount: '150ml', baseQty: 150, unit: 'ml' },
-      { item: 'Cacao en polvo puro, para espolvorear', amount: '1 pizca', baseQty: 1, unit: 'pizca' }
+      { item: 'Cacao en polvo puro, para espolvorear por encima', amount: '1 pizca', baseQty: 1, unit: 'pizca' }
     ],
     steps: [
       'Funde el chocolate negro con un chorrito de leche hasta obtener una crema espesa y ponla en el fondo de la taza.',
@@ -936,7 +938,7 @@ export const DISCOVERY_POOL = [
     tags: ['corea', 'americano', 'helado', 'espresso', 'sin azucar', 'facil', 'rapido'],
     image: 'https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'Un espresso doble volcado sobre agua fría con mucho hielo. Sin leche, sin azúcar, sin más: en Corea del Sur se bebe a todas horas y en pleno invierno.',
-    longDesc: 'Es la bebida de café más consumida en Corea del Sur, hasta el punto de tener apodo propio: «eol-a» (hielo americano). Su virtud es que no esconde nada. Sin leche ni azúcar de por medio, un americano helado te dice exactamente cómo es el café que has usado, así que es la forma más honesta de probar un grano nuevo en verano.',
+    longDesc: 'Es la bebida de café más consumida en Corea del Sur, hasta el punto de tener apodo propio: «얼죽아» (eol-juk-a), abreviatura de «un americano helado aunque me muera de frío», que describe a quien lo pide en pleno invierno. Su virtud es que no esconde nada. Sin leche ni azúcar de por medio, un americano helado te dice exactamente cómo es el café que has usado, así que es la forma más honesta de probar un grano nuevo en verano.',
     ingredients: [
       { item: 'Café en grano de tueste medio', amount: '18g', baseQty: 18, unit: 'g' },
       { item: 'Espresso doble recién extraído', amount: '36ml', baseQty: 36, unit: 'ml' },
@@ -948,14 +950,15 @@ export const DISCOVERY_POOL = [
       'Añade los 150ml de agua fría sobre el hielo.',
       'Extrae un espresso doble de 36ml.',
       'Vuélcalo sobre el agua con hielo desde unos centímetros de altura: verás cómo la crema se queda arriba formando una capa atigrada.',
-      'Sírvelo sin remover y deja que quien lo bebe decida si mezcla o no.'
+      'Sírvelo sin remover y deja que quien lo bebe decida si mezcla o no.',
+      'Fíjate en que no es el americano caliente con hielo: lleva más agua (150ml frente a 110) y se monta al revés, volcando el café sobre el agua ya fría.'
     ],
     baristaTip: 'Si usas un grano de tueste claro y acidez alta, aquí brillará. Los tuestes muy oscuros, en frío y sin azúcar, se vuelven cenicientos.',
     source: 'Estándar de cafetería coreana contemporánea'
   },
   {
     id: 'caffe-orzo-italiano',
-    name: "Caffè d'Orzo (Café de Cebada)",
+    name: 'Caffè Orzo, el Café de Cebada',
     category: 'salud',
     categoryName: 'Salud & Alternativos',
     origin: 'Italia (bares de todo el país)',
@@ -974,7 +977,7 @@ export const DISCOVERY_POOL = [
     ingredients: [
       { item: 'Cebada tostada y molida para moka', amount: '25g', baseQty: 25, unit: 'g' },
       { item: 'Agua filtrada', amount: '250ml', baseQty: 250, unit: 'ml' },
-      { item: 'Leche caliente', amount: '100ml (opcional, para orzo macchiato)', baseQty: 100, unit: 'ml' }
+      { item: 'Leche caliente (opcional, para orzo macchiato)', amount: '100ml', baseQty: 100, unit: 'ml' }
     ],
     steps: [
       'Llena el depósito de la moka con agua hasta justo debajo de la válvula.',
@@ -1010,8 +1013,8 @@ export const DISCOVERY_POOL = [
       { item: 'Café de tueste muy claro, molido medio', amount: '10g', baseQty: 10, unit: 'g' },
       { item: 'Agua', amount: '250ml', baseQty: 250, unit: 'ml' },
       { item: 'Vainas de cardamomo verde, machacadas', amount: '4 vainas', baseQty: 4, unit: 'vainas' },
-      { item: 'Hebras de azafrán', amount: '1 pizca (opcional)', baseQty: 1, unit: 'pizca' },
-      { item: 'Clavo de olor', amount: '1 pieza (opcional)', baseQty: 1, unit: 'pieza' }
+      { item: 'Hebras de azafrán (opcional)', amount: '1 pizca', baseQty: 1, unit: 'pizca' },
+      { item: 'Clavo de olor (opcional)', amount: '1 pieza', baseQty: 1, unit: 'pieza' }
     ],
     steps: [
       'Lleva los 250ml de agua a ebullición suave en el dallah o en un cazo pequeño.',
@@ -1034,22 +1037,22 @@ export const DISCOVERY_POOL = [
     time: '10 min',
     timeMinutes: 10,
     grindSize: 'Raíz tostada troceada o molida gruesa',
-    ratio: '1:50 (5g de raíz tostada y 250ml de agua)',
+    ratio: '1:60 (4g de raíz tostada y 250ml de agua)',
     waterMl: 250,
     temp: 'Cocción a fuego lento, 8 minutos',
     flavorNotes: ['Raíz tostada', 'Regaliz suave', 'Amargor limpio', 'Sin cafeína'],
     tags: ['diente de leon', 'sin cafeina', 'raiz', 'herbolaria', 'alternativo', 'digestivo'],
     image: 'https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=800&q=80',
     shortDesc: 'La raíz del diente de león, tostada hasta oscurecer y cocida como un café: amarga, terrosa y sin una pizca de cafeína.',
-    longDesc: 'Es el sustituto de café más antiguo de Europa central, usado mucho antes de que lo adoptara la tienda de dietética. La raíz se tuesta hasta que oscurece y desarrolla, por la misma reacción de Maillard que el grano de café, compuestos tostados que imitan su amargor. No sabe igual que un café —nada sin cafeína lo hace— pero sí ocupa el mismo sitio en la taza de después de cenar.',
+    longDesc: 'Es uno de los sustitutos del café más arraigados de Europa central, usado mucho antes de que lo adoptara la tienda de dietética. La raíz se tuesta hasta que oscurece y desarrolla, por la misma reacción de Maillard que el grano de café, compuestos tostados que imitan su amargor. No sabe igual que un café —nada sin cafeína lo hace— pero sí ocupa el mismo sitio en la taza de después de cenar.',
     ingredients: [
-      { item: 'Raíz de diente de león tostada, troceada', amount: '5g (1 cucharadita colmada)', baseQty: 5, unit: 'g' },
+      { item: 'Raíz de diente de león tostada, troceada', amount: '4g (1-2 cucharaditas)', baseQty: 4, unit: 'g' },
       { item: 'Agua filtrada', amount: '250ml', baseQty: 250, unit: 'ml' },
-      { item: 'Canela en rama o cáscara de naranja', amount: '1 pieza (opcional)', baseQty: 1, unit: 'pieza' },
-      { item: 'Leche o bebida vegetal', amount: '50ml (opcional)', baseQty: 50, unit: 'ml' }
+      { item: 'Canela en rama o cáscara de naranja (opcional)', amount: '1 pieza', baseQty: 1, unit: 'pieza' },
+      { item: 'Leche o bebida vegetal (opcional)', amount: '50ml', baseQty: 50, unit: 'ml' }
     ],
     steps: [
-      'Pon los 250ml de agua y los 5g de raíz tostada en un cazo, en frío.',
+      'Pon los 250ml de agua y los 4g de raíz tostada en un cazo, en frío.',
       'Lleva a ebullición y baja enseguida a fuego lento.',
       'Cuece 8 minutos tapado. A diferencia de una infusión, la raíz necesita cocción para soltar el sabor.',
       'Añade la canela o la cáscara de naranja en el último minuto si quieres suavizar el amargor.',

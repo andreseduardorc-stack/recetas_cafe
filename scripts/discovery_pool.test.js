@@ -63,3 +63,20 @@ test('normalizarNombre quita tildes, signos y mayusculas', () => {
   assert.equal(normalizarNombre('Cà Phê Trứng (Hanói)'), 'caphetrunghanoi');
   assert.equal(normalizarNombre('  Espresso  Doble  '), 'espressodoble');
 });
+
+test('una receta del pool con id ya publicado es la misma receta, no otra', () => {
+  // Complementa a la comprobación de nombres: el pool es un catálogo y sus recetas
+  // publicadas siguen dentro, pero si alguien escribe una receta NUEVA reutilizando
+  // un id que ya existe, el bot la descarta en cada ejecución y nadie se entera.
+  const porId = new Map(RECIPES_DATA.map((r) => [r.id, normalizarNombre(r.name)]));
+  const impostoras = DISCOVERY_POOL.filter((r) => {
+    const publicada = porId.get(r.id);
+    return publicada !== undefined && publicada !== normalizarNombre(r.name);
+  }).map((r) => r.id);
+
+  assert.deepEqual(
+    impostoras,
+    [],
+    `estos ids ya están publicados con otra receta detrás: ${impostoras.join(', ')}`,
+  );
+});
