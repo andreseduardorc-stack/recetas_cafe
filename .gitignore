@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# espacio de trabajo de los planes (superpowers)
+.superpowers/
