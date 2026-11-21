@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
 import { X, Plus, Trash2, Coffee, Globe } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
+import { CATEGORIES } from '../data/recipesData';
+
+// «Todas» y «Mis Guardados» son vistas, no categorías en las que clasificar una receta.
+const CATEGORIAS_DE_RECETA = CATEGORIES.filter(
+  (c) => c.id !== 'todos' && c.id !== 'favoritos',
+);
 
 export const SubmitRecipeModal = ({ isOpen, onClose, onOpenAuthModal }) => {
   const { user, addCustomRecipe } = useAuth();
@@ -87,7 +93,7 @@ export const SubmitRecipeModal = ({ isOpen, onClose, onOpenAuthModal }) => {
     const newRecipe = {
       name,
       category,
-      categoryName: category === 'clasicos' ? 'Clásicos de Cafetería' : category === 'filtrados' ? 'Filtrados Manuales' : category === 'frios' ? 'Cafés Fríos & Iced' : 'Especiales & De Autor',
+      categoryName: CATEGORIAS_DE_RECETA.find((c) => c.id === category).label,
       origin: origin || 'Internet / Internacional',
       difficulty,
       time,
@@ -152,11 +158,9 @@ export const SubmitRecipeModal = ({ isOpen, onClose, onOpenAuthModal }) => {
                 onChange={(e) => setCategory(e.target.value)}
                 class="w-full px-3.5 py-2.5 bg-stone-950 border border-stone-800 rounded-xl text-sm focus:outline-none focus:border-amber-500 text-stone-200"
               >
-                <option value="clasicos">Clásicos de Cafetería</option>
-                <option value="filtrados">Filtrados Manuales (Pour Over)</option>
-                <option value="frios">Cafés Fríos & Iced</option>
-                <option value="especiales">Especiales & De Autor</option>
-                <option value="salud">Salud & Alternativos</option>
+                {CATEGORIAS_DE_RECETA.map((c) => (
+                  <option key={c.id} value={c.id}>{c.label}</option>
+                ))}
               </select>
             </div>
           </div>

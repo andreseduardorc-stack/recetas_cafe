@@ -9,7 +9,7 @@
 /** Las cinco categorías de receta, con el `categoryName` que le toca a cada una. */
 export const CATEGORIAS_VALIDAS = {
   clasicos: 'Clásicos de Cafetería',
-  filtrados: 'Filtrados Manuales (Pour Over)',
+  filtrados: 'Filtrados y Cafeteras Manuales',
   frios: 'Cafés Fríos & Iced',
   especiales: 'Especiales & De Autor',
   salud: 'Salud & Alternativos',
