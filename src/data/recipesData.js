@@ -41,7 +41,7 @@ export const RECIPES_DATA = [
       'Detén la extracción cuando alcances 36g de líquido en la taza, lo cual debe ocurrir idealmente entre el segundo 25 y 30.'
     ],
     baristaTip: 'Si tu espresso tarda menos de 20 segundos, la molienda está muy gruesa (subextracción, sabe agrio). Si tarda más de 35 segundos, está demasiado fina (sobreextracción, sabe amargo astringente).',
-    source: 'Eándares SCA (Specialty Coffee Association)'
+    source: 'Estándares SCA (Specialty Coffee Association)'
   },
   {
     id: 'flat-white',

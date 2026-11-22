@@ -142,7 +142,8 @@ export const RecipeDetailModal = ({ recipe, onClose, onOpenAuthModal }) => {
             </div>
           </div>
 
-          {/* Technical Specs Strip (SCA Standard) */}
+          {/* Tira de especificaciones: proporción, molienda, tiempo y temperatura.
+              No todas son ratios SCA: hay cócteles e infusiones. */}
           {/* Una sola columna en pantallas estrechas: el ratio llega a 84 caracteres y en
               dos columnas se parte en siete líneas, estirando toda la fila. */}
           <div className="grid grid-cols-1 min-[480px]:grid-cols-2 sm:grid-cols-4 gap-3 p-5 sm:p-6 bg-stone-950/50">

@@ -55,8 +55,8 @@ export const Hero = ({ searchQuery, setSearchQuery, onSelectRecipe, allRecipes, 
 
           <div className="flex items-center justify-center gap-2 py-2 bg-stone-900/40 rounded-xl border border-stone-800/40">
             <Compass className="w-4 h-4 text-amber-500" />
-            <span className="font-bold text-stone-200">Ratios</span>
-            <span>Estándares SCA</span>
+            <span className="font-bold text-stone-200">Proporción</span>
+            <span>Molienda y tiempos</span>
           </div>
 
           <div className="flex items-center justify-center gap-2 py-2 bg-stone-900/40 rounded-xl border border-stone-800/40">
