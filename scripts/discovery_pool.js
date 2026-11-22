@@ -75,7 +75,7 @@ export const DISCOVERY_POOL = [
       'Sírvelo colocando la taza dentro de un tazón pequeño con agua caliente para mantener la temperatura.'
     ],
     baristaTip: 'Bate la yema con suficiente vigor: si no incorpora suficiente aire, la crema se hundirá en el café en vez de flotar.',
-    source: 'Café Giảng Archive & Vietnam Tourism Board'
+    source: 'Café Giảng, Hanói, donde se creó en 1946'
   },
   {
     id: 'barraquito-canario',
@@ -148,7 +148,7 @@ export const DISCOVERY_POOL = [
       'Sirve humeante en taza gruesa o viértelo sobre cubos de hielo para la versión veraniega Iced Yuenyeung.'
     ],
     baristaTip: 'El secreto está en usar leche evaporada (no leche común fresca), ya que le aporta esa densidad característica y textura de seda.',
-    source: 'Hong Kong Living Heritage & Intangible Cultural Registry'
+    source: 'Inventario del Patrimonio Cultural Inmaterial de Hong Kong'
   },
   {
     id: 'kaffeost-escandinavo',
@@ -181,7 +181,7 @@ export const DISCOVERY_POOL = [
       'Bebe el café aromatizado con notas lácteas y salinas suaves, y luego come los dados de queso con una cucharilla.'
     ],
     baristaTip: 'El queso Leipäjuusto no se disuelve ni enturbia el café; al calentarse adquiere una textura chirriante ("squeaky") similar al marshmallow salado.',
-    source: 'Sami Culinary Heritage & Nordic Food Lab'
+    source: 'Tradición sami de Laponia (Suecia y Finlandia)'
   },
   {
     id: 'bicerin-turin',
@@ -564,7 +564,7 @@ export const DISCOVERY_POOL = [
       'Para la versión de Nueva Orleans, llena la taza a partes iguales con el café y con leche entera bien caliente.'
     ],
     baristaTip: 'La achicoria extrae más rápido que el café: si te pasas del tiempo, el amargor de raíz se come todo lo demás. Cuatro minutos y ni uno más.',
-    source: 'Tradición cafetera de Luisiana, heredada de la Francia napoleónica'
+    source: 'Café du Monde, Nueva Orleans: café con achicoria en el French Market desde 1862'
   },
   {
     id: 'espresso-macchiato',
@@ -918,7 +918,7 @@ export const DISCOVERY_POOL = [
       'Retira del fuego y saca inmediatamente la cesta con el café usado: si se queda dentro, sigue extrayendo y amarga.'
     ],
     baristaTip: 'Molienda gruesa, de verdad: como sal de roca. Con molienda fina el agua recircula sobre un café ya agotado y la taza se vuelve impotable. Es el error que le dio su mala fama.',
-    source: 'Método de percolación por recirculación, estándar doméstico del siglo XX'
+    source: 'Patente estadounidense 408.707 (Hanson Goodrich, 1889), la percoladora moderna'
   },
   {
     id: 'americano-helado',

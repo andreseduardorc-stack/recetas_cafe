@@ -946,7 +946,7 @@ export const RECIPES_DATA = [
       "Sírvelo colocando la taza dentro de un tazón pequeño con agua caliente para mantener la temperatura."
     ],
     "baristaTip": "Bate la yema con suficiente vigor: si no incorpora suficiente aire, la crema se hundirá en el café en vez de flotar.",
-    "source": "Café Giảng Archive & Vietnam Tourism Board"
+    "source": "Café Giảng, Hanói, donde se creó en 1946"
   }
 ,
   {
@@ -1091,7 +1091,7 @@ export const RECIPES_DATA = [
       "Sirve humeante en taza gruesa o viértelo sobre cubos de hielo para la versión veraniega Iced Yuenyeung."
     ],
     "baristaTip": "El secreto está en usar leche evaporada (no leche común fresca), ya que le aporta esa densidad característica y textura de seda.",
-    "source": "Hong Kong Living Heritage & Intangible Cultural Registry"
+    "source": "Inventario del Patrimonio Cultural Inmaterial de Hong Kong"
   }
 ,
   {
@@ -1148,7 +1148,7 @@ export const RECIPES_DATA = [
       "Bebe el café aromatizado con notas lácteas y salinas suaves, y luego come los dados de queso con una cucharilla."
     ],
     "baristaTip": "El queso Leipäjuusto no se disuelve ni enturbia el café; al calentarse adquiere una textura chirriante (\"squeaky\") similar al marshmallow salado.",
-    "source": "Sami Culinary Heritage & Nordic Food Lab"
+    "source": "Tradición sami de Laponia (Suecia y Finlandia)"
   }
 
 ];

@@ -97,9 +97,36 @@ entero y comprueba además que ningún `id` del pool choque con los ya publicado
 ### El criterio de rigor
 
 Cada receta describe una preparación real y reconocible, con proporciones que son las
-publicadas habitualmente para ese método. El campo `source` nombra una referencia
-comprobable (una institución, un libro, una cafetería histórica), no un «tradición
-popular» genérico. Si no sé el ratio de algo con suficiente confianza, esa receta no entra.
+publicadas habitualmente para ese método. Si no sé el ratio de algo con suficiente
+confianza, esa receta no entra.
+
+### El campo `source`, corregido el 2026-11-21
+
+La primera versión de este criterio exigía que `source` nombrara siempre «una referencia
+comprobable (una institución, un libro, una cafetería histórica), no un "tradición popular"
+genérico». **Ese listón era irreal y se corrige aquí.**
+
+Una revisión señaló que 17 de 24 recetas no lo cumplían. Al ir a arreglarlo se vio por qué:
+para un cortado, un americano o un macchiato **no existe institución que citar**. Son
+tradiciones de barra. La web rotula el campo «Fuente de la receta», y «tradición cafetera
+española de barra» es una respuesta cierta y completa a esa pregunta.
+
+Mantener el listón alto no habría mejorado nada: habría empujado a inventar nombres de
+instituciones que suenan bien. Eso ya había pasado en el pool original, escrito antes de
+este trabajo: «Hong Kong Living Heritage & Intangible Cultural Registry», «Café Giảng
+Archive & Vietnam Tourism Board», «Sami Culinary Heritage & Nordic Food Lab». Ninguna de
+las tres existe con ese nombre. **Una fuente falsa es peor que una genérica**, porque la
+genérica no engaña a nadie.
+
+El criterio que rige, entonces:
+
+1. **Si existe una referencia comprobable, se cita y se verifica antes de escribirla.** Así
+   se corrigieron la achicoria (Café du Monde, French Market, 1862) y la percoladora
+   (patente estadounidense 408.707, Hanson Goodrich, 1889).
+2. **Si la preparación es una tradición, se nombra la tradición** con la mayor precisión
+   posible: el lugar, la época, el gremio.
+3. **Nunca se inventa una institución.** Ante la duda entre una cita dudosa y una tradición
+   cierta, gana la tradición.
 
 ## Lo que queda al constructor
 
