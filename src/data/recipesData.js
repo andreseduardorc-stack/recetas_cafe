@@ -855,8 +855,8 @@ export const RECIPES_DATA = [
         "unit": "ml"
       },
       {
-        "item": "Azúcar moreno al gusto",
-        "amount": "10g (opcional)",
+        "item": "Azúcar moreno (opcional)",
+        "amount": "10g, al gusto",
         "baseQty": 10,
         "unit": "g"
       }
@@ -866,6 +866,7 @@ export const RECIPES_DATA = [
       "Coloca la mezcla en un filtro cónico o manga de tela tradicional.",
       "Vierte los 300ml de agua caliente lentamente en círculos para empapar las especias.",
       "Recoge la extracción y viértela de nuevo a través del filtro una segunda vez para intensificar el sabor.",
+      "Si lo tomas dulce, disuelve ahora el azúcar moreno en el café caliente.",
       "Pasa el café de un vaso a otro a cierta altura creando una capa ligera de espuma antes de servir bien caliente."
     ],
     "baristaTip": "El Djar contiene aceites esenciales con propiedades digestivas y broncodilatadoras, otorgando un efecto vigorizante mucho más prolongado que el café común.",
@@ -1008,8 +1009,8 @@ export const RECIPES_DATA = [
         "unit": "ml"
       },
       {
-        "item": "Canela en polvo y corteza de limón fresco",
-        "amount": "Para decorar",
+        "item": "Canela en polvo y corteza de limón fresco, para decorar",
+        "amount": "1 pizca y 1 corteza",
         "baseQty": 1,
         "unit": "twist"
       }

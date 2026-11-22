@@ -28,13 +28,14 @@ export const DISCOVERY_POOL = [
       { item: 'Café tostado oscuro molido', amount: '20g', baseQty: 20, unit: 'g' },
       { item: 'Pimienta de Guinea (Djar) y clavo molidos', amount: '5g (1 cdita)', baseQty: 5, unit: 'g' },
       { item: 'Agua muy caliente (95°C)', amount: '300ml', baseQty: 300, unit: 'ml' },
-      { item: 'Azúcar moreno al gusto', amount: '10g (opcional)', baseQty: 10, unit: 'g' }
+      { item: 'Azúcar moreno (opcional)', amount: '10g, al gusto', baseQty: 10, unit: 'g' }
     ],
     steps: [
       'Mezcla el café molido medio-grueso con las especias djar y clavo trituradas.',
       'Coloca la mezcla en un filtro cónico o manga de tela tradicional.',
       'Vierte los 300ml de agua caliente lentamente en círculos para empapar las especias.',
       'Recoge la extracción y viértela de nuevo a través del filtro una segunda vez para intensificar el sabor.',
+      'Si lo tomas dulce, disuelve ahora el azúcar moreno en el café caliente.',
       'Pasa el café de un vaso a otro a cierta altura creando una capa ligera de espuma antes de servir bien caliente.'
     ],
     baristaTip: 'El Djar contiene aceites esenciales con propiedades digestivas y broncodilatadoras, otorgando un efecto vigorizante mucho más prolongado que el café común.',
@@ -102,7 +103,7 @@ export const DISCOVERY_POOL = [
       { item: 'Licor 43 (o Tía María)', amount: '15ml', baseQty: 15, unit: 'ml' },
       { item: 'Espresso corto intenso', amount: '35ml', baseQty: 35, unit: 'ml' },
       { item: 'Leche entera emulsionada caliente', amount: '80ml', baseQty: 80, unit: 'ml' },
-      { item: 'Canela en polvo y corteza de limón fresco', amount: 'Para decorar', baseQty: 1, unit: 'twist' }
+      { item: 'Canela en polvo y corteza de limón fresco, para decorar', amount: '1 pizca y 1 corteza', baseQty: 1, unit: 'twist' }
     ],
     steps: [
       'En un vaso alto y fino de cristal transparente, añade la leche condensada en el fondo (capa 1).',
