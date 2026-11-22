@@ -143,34 +143,36 @@ export const RecipeDetailModal = ({ recipe, onClose, onOpenAuthModal }) => {
           </div>
 
           {/* Technical Specs Strip (SCA Standard) */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 p-5 sm:p-6 bg-stone-950/50">
-            <div className="bg-stone-900/80 p-3 rounded-xl border border-stone-800 flex items-center gap-3">
+          {/* Una sola columna en pantallas estrechas: el ratio llega a 84 caracteres y en
+              dos columnas se parte en siete líneas, estirando toda la fila. */}
+          <div className="grid grid-cols-1 min-[480px]:grid-cols-2 sm:grid-cols-4 gap-3 p-5 sm:p-6 bg-stone-950/50">
+            <div className="bg-stone-900/80 p-3 rounded-xl border border-stone-800 flex items-center gap-3 min-w-0">
               <Scale className="w-5 h-5 text-amber-400 shrink-0" />
-              <div>
+              <div className="min-w-0">
                 <div className="text-[11px] text-stone-400 uppercase font-semibold">Ratio SCA</div>
                 <div className="text-xs sm:text-sm font-bold text-stone-200">{recipe.ratio}</div>
               </div>
             </div>
 
-            <div className="bg-stone-900/80 p-3 rounded-xl border border-stone-800 flex items-center gap-3">
+            <div className="bg-stone-900/80 p-3 rounded-xl border border-stone-800 flex items-center gap-3 min-w-0">
               <Coffee className="w-5 h-5 text-amber-400 shrink-0" />
-              <div>
+              <div className="min-w-0">
                 <div className="text-[11px] text-stone-400 uppercase font-semibold">Molienda</div>
                 <div className="text-xs sm:text-sm font-bold text-stone-200">{recipe.grindSize}</div>
               </div>
             </div>
 
-            <div className="bg-stone-900/80 p-3 rounded-xl border border-stone-800 flex items-center gap-3">
+            <div className="bg-stone-900/80 p-3 rounded-xl border border-stone-800 flex items-center gap-3 min-w-0">
               <Clock className="w-5 h-5 text-amber-400 shrink-0" />
-              <div>
+              <div className="min-w-0">
                 <div className="text-[11px] text-stone-400 uppercase font-semibold">Tiempo Total</div>
                 <div className="text-xs sm:text-sm font-bold text-stone-200">{recipe.time}</div>
               </div>
             </div>
 
-            <div className="bg-stone-900/80 p-3 rounded-xl border border-stone-800 flex items-center gap-3">
+            <div className="bg-stone-900/80 p-3 rounded-xl border border-stone-800 flex items-center gap-3 min-w-0">
               <Flame className="w-5 h-5 text-amber-400 shrink-0" />
-              <div>
+              <div className="min-w-0">
                 <div className="text-[11px] text-stone-400 uppercase font-semibold">Temperatura</div>
                 <div className="text-xs sm:text-sm font-bold text-stone-200">{recipe.temp}</div>
               </div>
