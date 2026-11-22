@@ -149,7 +149,7 @@ export const RecipeDetailModal = ({ recipe, onClose, onOpenAuthModal }) => {
             <div className="bg-stone-900/80 p-3 rounded-xl border border-stone-800 flex items-center gap-3 min-w-0">
               <Scale className="w-5 h-5 text-amber-400 shrink-0" />
               <div className="min-w-0">
-                <div className="text-[11px] text-stone-400 uppercase font-semibold">Ratio SCA</div>
+                <div className="text-[11px] text-stone-400 uppercase font-semibold">Proporción</div>
                 <div className="text-xs sm:text-sm font-bold text-stone-200">{recipe.ratio}</div>
               </div>
             </div>

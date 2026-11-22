@@ -85,7 +85,7 @@ export const RecipeCard = ({ recipe, onSelectRecipe, onOpenAuthModal }) => {
               {recipe.difficulty}
             </span>
             <span className="text-[11px] font-mono text-stone-400 bg-stone-800/80 px-2 py-0.5 rounded-md">
-              Ratio: {recipe.ratio}
+              Proporción: {recipe.ratio}
             </span>
           </div>
 

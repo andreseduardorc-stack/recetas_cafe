@@ -662,7 +662,7 @@ export const RECIPES_DATA = [
     time: '4 min',
     timeMinutes: 4,
     grindSize: 'Media',
-    ratio: '250ml café recién filtrado + 1 cda mantequilla de pastoreo o Ghee + 1 cda aceite MCT',
+    ratio: '1:14 en el café (18g y 250ml), más 1 cda de mantequilla y 1 de aceite MCT',
     coffeeGrams: 18,
     waterMl: 250,
     temp: '85°C',
@@ -882,9 +882,9 @@ export const RECIPES_DATA = [
     "time": "6 min",
     "timeMinutes": 6,
     "grindSize": "Media (Filtro Phin)",
-    "ratio": "1 shot café robusta denso + crema batida de yema y leche condensada",
+    "ratio": "1:5 en el café (20g y 100ml), con crema batida de yema y leche condensada",
     "coffeeGrams": 20,
-    "waterMl": 60,
+    "waterMl": 100,
     "temp": "Caliente",
     "flavorNotes": [
       "Natilla de tiramisú",
@@ -914,8 +914,8 @@ export const RECIPES_DATA = [
       },
       {
         "item": "Agua a 95°C",
-        "amount": "60ml",
-        "baseQty": 60,
+        "amount": "100ml",
+        "baseQty": 100,
         "unit": "ml"
       },
       {
@@ -959,7 +959,7 @@ export const RECIPES_DATA = [
     "time": "4 min",
     "timeMinutes": 4,
     "grindSize": "Fina",
-    "ratio": "Capas: Leche condensada + Licor 43 + Café solo + Espuma de leche",
+    "ratio": "1:2 en el espresso (16g y 35ml), montado en cuatro capas",
     "coffeeGrams": 16,
     "waterMl": 35,
     "milkMl": 80,
@@ -1104,9 +1104,9 @@ export const RECIPES_DATA = [
     "time": "3 min",
     "timeMinutes": 3,
     "grindSize": "Gruesa (Kokkaffe en tetera sobre fuego)",
-    "ratio": "1 taza de café negro filtrado caliente + dados de queso Leipäjuusto",
+    "ratio": "1:11 en el café (20g y 220ml), más 40g de queso en dados",
     "coffeeGrams": 20,
-    "waterMl": 250,
+    "waterMl": 220,
     "temp": "Muy caliente (95°C)",
     "flavorNotes": [
       "Salado sutil",

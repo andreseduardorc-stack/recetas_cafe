@@ -191,7 +191,7 @@ export const SubmitRecipeModal = ({ isOpen, onClose, onOpenAuthModal }) => {
             </div>
 
             <div>
-              <label className="block text-xs text-stone-400 mb-1">Ratio (SCA)</label>
+              <label className="block text-xs text-stone-400 mb-1">Proporción</label>
               <input
                 type="text"
                 value={ratio}
