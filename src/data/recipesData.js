@@ -310,7 +310,7 @@ export const RECIPES_DATA = [
     ingredients: [
       { item: 'Café de grano entero tueste medio o medio-oscuro molido muy grueso', amount: '100g', baseQty: 100, unit: 'g' },
       { item: 'Agua filtrada a temperatura ambiente o refrigerada', amount: '800ml', baseQty: 800, unit: 'ml' },
-      { item: 'Hielo en cubos macizos', amount: 'Para servir', baseQty: 4, unit: 'cubos' }
+      { item: 'Hielo en cubos macizos, para servir', amount: '4 cubos', baseQty: 4, unit: 'cubos' }
     ],
     steps: [
       'Muele el café al grosor más alto disponible en tu molino (textura de gravilla o sal gorda).',
@@ -382,7 +382,7 @@ export const RECIPES_DATA = [
     ingredients: [
       { item: 'Gelato artesanal de Fior di Latte o Vainilla de Madagascar', amount: '1 bola generosa (aprox. 60g)', baseQty: 60, unit: 'g' },
       { item: 'Espresso doble caliente recién hecho', amount: '36ml', baseQty: 36, unit: 'ml' },
-      { item: 'Avellanas tostadas picadas o chocolate amargo rallado', amount: 'Opcional para decorar', baseQty: 5, unit: 'g' }
+      { item: 'Avellanas tostadas o chocolate rallado (opcional, para decorar)', amount: '5g', baseQty: 5, unit: 'g' }
     ],
     steps: [
       'Pre-enfría un vaso o copa de cristal corta en el congelador durante 10 minutos.',
@@ -493,7 +493,7 @@ export const RECIPES_DATA = [
       { item: 'Sirope de arce o azúcar mascabado', amount: '15ml', baseQty: 15, unit: 'ml' },
       { item: 'Leche entera o vegetal (avena queda espectacular)', amount: '200ml', baseQty: 200, unit: 'ml' },
       { item: 'Doble shot de espresso recién extraído', amount: '36ml', baseQty: 36, unit: 'ml' },
-      { item: 'Nata montada y pizca de canela molida', amount: 'Para decorar', baseQty: 1, unit: 'porción' }
+      { item: 'Nata montada y pizca de canela molida, para decorar', amount: '1 porción', baseQty: 1, unit: 'porción' }
     ],
     steps: [
       'En una ollita a fuego bajo, cocina el puré de calabaza junto con las especias durante 2 minutos hasta que desprenda aroma tostado.',
@@ -527,7 +527,7 @@ export const RECIPES_DATA = [
     ingredients: [
       { item: 'Café en grano mexicano (Veracruz, Chiapas u Oaxaca) tueste oscuro', amount: '40g molido medio-grueso', baseQty: 40, unit: 'g' },
       { item: 'Agua pura', amount: '600ml', baseQty: 600, unit: 'ml' },
-      { item: 'Piloncillo o panela rallada', amount: '40g (ajustar al gusto)', baseQty: 40, unit: 'g' },
+      { item: 'Piloncillo o panela rallada (ajustar al gusto)', amount: '40g', baseQty: 40, unit: 'g' },
       { item: 'Canela en rama de Ceilán', amount: '1 vara entera', baseQty: 1, unit: 'vara' },
       { item: 'Cáscara de naranja fresca sin parte blanca', amount: '1 trozo', baseQty: 1, unit: 'pieza' },
       { item: 'Clavo de olor (opcional)', amount: '1 pieza', baseQty: 1, unit: 'pieza' }
@@ -675,7 +675,7 @@ export const RECIPES_DATA = [
       { item: 'Café caliente recién preparado (prensa francesa o filtrado)', amount: '250ml', baseQty: 250, unit: 'ml' },
       { item: 'Mantequilla sin sal de vacas de pastoreo (Grass-fed) o Ghee purificado', amount: '1 cucharada sopera (15g)', baseQty: 15, unit: 'g' },
       { item: 'Aceite de coco virgen o Aceite MCT puro', amount: '1 cucharada sopera (10ml)', baseQty: 10, unit: 'ml' },
-      { item: 'Canela de ceilán o vainilla pura', amount: '1 pizca (opcional)', baseQty: 1, unit: 'pizca' }
+      { item: 'Canela de ceilán o vainilla pura (opcional)', amount: '1 pizca', baseQty: 1, unit: 'pizca' }
     ],
     steps: [
       'Prepara 250ml de tu café negro favorito recién tostado.',
@@ -752,7 +752,7 @@ export const RECIPES_DATA = [
       { item: 'Doble shot de espresso recién extraído', amount: '36ml', baseQty: 36, unit: 'ml' },
       { item: 'Sirope de azúcar de caña líquido (Simple Syrup)', amount: '10ml', baseQty: 10, unit: 'ml' },
       { item: 'Cubos de hielo duros y secos', amount: '6 cubos grandes', baseQty: 6, unit: 'cubos' },
-      { item: 'Granos de café tostados enteros', amount: '3 granos (para decorar)', baseQty: 3, unit: 'granos' }
+      { item: 'Granos de café tostados enteros, para decorar', amount: '3 granos', baseQty: 3, unit: 'granos' }
     ],
     steps: [
       'Pre-enfría una copa de cóctel tipo Martini o Coupe con hielo picado.',
@@ -791,7 +791,7 @@ export const RECIPES_DATA = [
       { item: 'Concentrado artesanal de Masala Chai (canela, cardamomo, clavo, jengibre, té negro)', amount: '120ml', baseQty: 120, unit: 'ml' },
       { item: 'Shot de espresso intenso recién hecho', amount: '30ml', baseQty: 30, unit: 'ml' },
       { item: 'Leche entera o vegetal (avena o coco)', amount: '100ml', baseQty: 100, unit: 'ml' },
-      { item: 'Canela en polvo y anís estrellado', amount: 'Para decorar', baseQty: 1, unit: 'pieza' }
+      { item: 'Canela en polvo y anís estrellado, para decorar', amount: '1 pieza', baseQty: 1, unit: 'pieza' }
     ],
     steps: [
       'Calienta el concentrado de té chai en una taza grande.',
