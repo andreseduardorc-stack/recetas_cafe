@@ -30,21 +30,21 @@ export const RecipeCard = ({ recipe, onSelectRecipe, onOpenAuthModal }) => {
   return (
     <div
       onClick={() => onSelectRecipe(recipe)}
-      class="group bg-stone-900/70 hover:bg-stone-900 border border-stone-800/80 hover:border-amber-500/40 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl hover:shadow-amber-950/20 transition-all duration-300 flex flex-col cursor-pointer transform hover:-translate-y-1"
+      className="group bg-stone-900/70 hover:bg-stone-900 border border-stone-800/80 hover:border-amber-500/40 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl hover:shadow-amber-950/20 transition-all duration-300 flex flex-col cursor-pointer transform hover:-translate-y-1"
     >
       {/* Image & Badges Container */}
-      <div class="relative h-48 sm:h-52 w-full overflow-hidden bg-stone-950">
+      <div className="relative h-48 sm:h-52 w-full overflow-hidden bg-stone-950">
         <img
           src={recipe.image}
           alt={recipe.name}
           loading="lazy"
-          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
-        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/20 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/20 to-transparent" />
 
         {/* Top Badges */}
-        <div class="absolute top-3 left-3 right-3 flex items-center justify-between">
-          <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-stone-900/80 backdrop-blur-md text-amber-300 border border-amber-500/30">
+        <div className="absolute top-3 left-3 right-3 flex items-center justify-between">
+          <span className="px-2.5 py-1 rounded-full text-xs font-semibold bg-stone-900/80 backdrop-blur-md text-amber-300 border border-amber-500/30">
             {recipe.categoryName}
           </span>
 
@@ -52,73 +52,73 @@ export const RecipeCard = ({ recipe, onSelectRecipe, onOpenAuthModal }) => {
           <button
             onClick={handleFavoriteClick}
             title={saved ? 'Quitar de favoritos' : 'Guardar en mis favoritos'}
-            class={`p-2 rounded-full backdrop-blur-md border transition-all duration-200 transform active:scale-90 ${
+            className={`p-2 rounded-full backdrop-blur-md border transition-all duration-200 transform active:scale-90 ${
               saved
                 ? 'bg-rose-500 text-white border-rose-400 shadow-lg shadow-rose-500/40'
                 : 'bg-stone-900/80 text-stone-300 border-stone-700 hover:text-rose-400 hover:bg-stone-900'
             }`}
           >
-            <Heart class={`w-4 h-4 ${saved ? 'fill-current' : ''}`} />
+            <Heart className={`w-4 h-4 ${saved ? 'fill-current' : ''}`} />
           </button>
         </div>
 
         {/* Bottom stats inside image */}
-        <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-xs text-stone-300">
-          <div class="flex items-center gap-1.5 bg-stone-950/80 backdrop-blur-sm px-2 py-1 rounded-lg border border-stone-800">
-            <Clock class="w-3.5 h-3.5 text-amber-400" />
+        <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between text-xs text-stone-300">
+          <div className="flex items-center gap-1.5 bg-stone-950/80 backdrop-blur-sm px-2 py-1 rounded-lg border border-stone-800">
+            <Clock className="w-3.5 h-3.5 text-amber-400" />
             <span>{recipe.time}</span>
           </div>
 
-          <div class="flex items-center gap-1.5 bg-stone-950/80 backdrop-blur-sm px-2 py-1 rounded-lg border border-stone-800">
-            <Globe2 class="w-3.5 h-3.5 text-stone-400" />
-            <span class="truncate max-w-[120px]">{recipe.origin}</span>
+          <div className="flex items-center gap-1.5 bg-stone-950/80 backdrop-blur-sm px-2 py-1 rounded-lg border border-stone-800">
+            <Globe2 className="w-3.5 h-3.5 text-stone-400" />
+            <span className="truncate max-w-[120px]">{recipe.origin}</span>
           </div>
         </div>
       </div>
 
       {/* Card Content */}
-      <div class="p-5 flex-1 flex flex-col justify-between">
+      <div className="p-5 flex-1 flex flex-col justify-between">
         <div>
           {/* Difficulty and Ratio */}
-          <div class="flex items-center gap-2 mb-2.5">
-            <span class={`text-[11px] font-medium px-2 py-0.5 rounded-md border ${getDifficultyColor(recipe.difficulty)}`}>
+          <div className="flex items-center gap-2 mb-2.5">
+            <span className={`text-[11px] font-medium px-2 py-0.5 rounded-md border ${getDifficultyColor(recipe.difficulty)}`}>
               {recipe.difficulty}
             </span>
-            <span class="text-[11px] font-mono text-stone-400 bg-stone-800/80 px-2 py-0.5 rounded-md">
+            <span className="text-[11px] font-mono text-stone-400 bg-stone-800/80 px-2 py-0.5 rounded-md">
               Ratio: {recipe.ratio}
             </span>
           </div>
 
           {/* Title */}
-          <h3 class="text-lg font-bold text-stone-100 group-hover:text-amber-400 transition-colors line-clamp-1 mb-1.5">
+          <h3 className="text-lg font-bold text-stone-100 group-hover:text-amber-400 transition-colors line-clamp-1 mb-1.5">
             {recipe.name}
           </h3>
 
           {/* Short Description */}
-          <p class="text-xs text-stone-400 line-clamp-2 leading-relaxed mb-4">
+          <p className="text-xs text-stone-400 line-clamp-2 leading-relaxed mb-4">
             {recipe.shortDesc}
           </p>
         </div>
 
         {/* Flavor Notes & Action */}
         <div>
-          <div class="flex flex-wrap gap-1.5 mb-4">
+          <div className="flex flex-wrap gap-1.5 mb-4">
             {recipe.flavorNotes.slice(0, 3).map((note, idx) => (
               <span
                 key={idx}
-                class="text-[10px] bg-stone-800/70 text-stone-300 px-2 py-0.5 rounded-md border border-stone-800"
+                className="text-[10px] bg-stone-800/70 text-stone-300 px-2 py-0.5 rounded-md border border-stone-800"
               >
                 {note}
               </span>
             ))}
           </div>
 
-          <div class="pt-3 border-t border-stone-800/60 flex items-center justify-between text-xs">
-            <span class="text-stone-400 group-hover:text-stone-300">
+          <div className="pt-3 border-t border-stone-800/60 flex items-center justify-between text-xs">
+            <span className="text-stone-400 group-hover:text-stone-300">
               {recipe.ingredients.length} ingredientes • {recipe.steps.length} pasos
             </span>
-            <span class="text-amber-400 font-semibold flex items-center gap-1 group-hover:translate-x-1 transition-transform">
-              Ver receta <ChevronRight class="w-3.5 h-3.5" />
+            <span className="text-amber-400 font-semibold flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+              Ver receta <ChevronRight className="w-3.5 h-3.5" />
             </span>
           </div>
         </div>

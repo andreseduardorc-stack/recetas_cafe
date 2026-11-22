@@ -98,7 +98,7 @@ function EncyclopediaContent() {
   };
 
   return (
-    <div class="min-h-screen bg-stone-950 text-stone-100 flex flex-col font-sans selection:bg-amber-600 selection:text-white">
+    <div className="min-h-screen bg-stone-950 text-stone-100 flex flex-col font-sans selection:bg-amber-600 selection:text-white">
       
       {/* Top Navbar with Session info & action pills */}
       <Navbar
@@ -118,7 +118,7 @@ function EncyclopediaContent() {
       />
 
       {/* Main Encyclopedia Catalog Area */}
-      <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-4">
         
         {/* Sections & Filters Bar */}
         <SectionMenu
@@ -136,17 +136,17 @@ function EncyclopediaContent() {
         />
 
         {/* Current View Title & Results Count */}
-        <div class="flex items-center justify-between mb-6 pb-2">
+        <div className="flex items-center justify-between mb-6 pb-2">
           <div>
-            <h2 class="text-xl sm:text-2xl font-bold text-white flex items-center gap-2">
+            <h2 className="text-xl sm:text-2xl font-bold text-white flex items-center gap-2">
               {activeCategory === 'favoritos' ? (
                 <>
-                  <Bookmark class="w-6 h-6 text-rose-500 fill-rose-500/20" />
+                  <Bookmark className="w-6 h-6 text-rose-500 fill-rose-500/20" />
                   <span>Mis Recetas Guardadas</span>
                 </>
               ) : searchQuery ? (
                 <>
-                  <Search class="w-5 h-5 text-amber-500" />
+                  <Search className="w-5 h-5 text-amber-500" />
                   <span>Resultados para "{searchQuery}"</span>
                 </>
               ) : (
@@ -155,7 +155,7 @@ function EncyclopediaContent() {
                 </span>
               )}
             </h2>
-            <p class="text-xs text-stone-400 mt-1">
+            <p className="text-xs text-stone-400 mt-1">
               Mostrando {filteredRecipes.length} {filteredRecipes.length === 1 ? 'receta' : 'recetas'} encontradas
             </p>
           </div>
@@ -163,9 +163,9 @@ function EncyclopediaContent() {
           {(searchQuery || difficultyFilter !== 'todos' || timeFilter !== 'todos') && (
             <button
               onClick={handleClearFilters}
-              class="flex items-center gap-1.5 px-3 py-1.5 bg-stone-900 hover:bg-stone-800 text-stone-300 rounded-lg text-xs border border-stone-800 transition-colors"
+              className="flex items-center gap-1.5 px-3 py-1.5 bg-stone-900 hover:bg-stone-800 text-stone-300 rounded-lg text-xs border border-stone-800 transition-colors"
             >
-              <RotateCcw class="w-3.5 h-3.5" />
+              <RotateCcw className="w-3.5 h-3.5" />
               <span>Limpiar filtros</span>
             </button>
           )}
@@ -173,7 +173,7 @@ function EncyclopediaContent() {
 
         {/* Recipe Cards Grid */}
         {filteredRecipes.length > 0 ? (
-          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {filteredRecipes.map((recipe) => (
               <RecipeCard
                 key={recipe.id}
@@ -185,34 +185,34 @@ function EncyclopediaContent() {
           </div>
         ) : (
           /* Empty State */
-          <div class="text-center py-20 px-4 bg-stone-900/40 border border-stone-800/60 rounded-3xl my-6">
-            <div class="p-4 bg-stone-800/80 rounded-2xl w-fit mx-auto text-amber-400 mb-4">
+          <div className="text-center py-20 px-4 bg-stone-900/40 border border-stone-800/60 rounded-3xl my-6">
+            <div className="p-4 bg-stone-800/80 rounded-2xl w-fit mx-auto text-amber-400 mb-4">
               {activeCategory === 'favoritos' ? (
-                <Bookmark class="w-10 h-10 text-stone-500" />
+                <Bookmark className="w-10 h-10 text-stone-500" />
               ) : (
-                <Coffee class="w-10 h-10 text-stone-500" />
+                <Coffee className="w-10 h-10 text-stone-500" />
               )}
             </div>
 
             {activeCategory === 'favoritos' ? (
               <div>
-                <h3 class="text-xl font-bold text-white mb-2">No tienes recetas guardadas aún</h3>
-                <p class="text-xs sm:text-sm text-stone-400 max-w-md mx-auto mb-6">
+                <h3 className="text-xl font-bold text-white mb-2">No tienes recetas guardadas aún</h3>
+                <p className="text-xs sm:text-sm text-stone-400 max-w-md mx-auto mb-6">
                   {user
                     ? 'Explora las recetas de la enciclopedia y pulsa el corazón ❤️ para guardarlas en tu colección personal.'
                     : 'Inicia sesión para tener tu propia libreta de recetas favoritas de café.'}
                 </p>
-                <div class="flex justify-center gap-3">
+                <div className="flex justify-center gap-3">
                   <button
                     onClick={() => setActiveCategory('todos')}
-                    class="px-5 py-2.5 bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold rounded-xl text-xs transition-colors"
+                    className="px-5 py-2.5 bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold rounded-xl text-xs transition-colors"
                   >
                     Explorar todas las recetas
                   </button>
                   {!user && (
                     <button
                       onClick={() => setIsAuthModalOpen(true)}
-                      class="px-5 py-2.5 bg-stone-800 hover:bg-stone-700 text-stone-200 font-semibold rounded-xl text-xs transition-colors"
+                      className="px-5 py-2.5 bg-stone-800 hover:bg-stone-700 text-stone-200 font-semibold rounded-xl text-xs transition-colors"
                     >
                       Iniciar Sesión
                     </button>
@@ -221,22 +221,22 @@ function EncyclopediaContent() {
               </div>
             ) : (
               <div>
-                <h3 class="text-xl font-bold text-white mb-2">No se encontraron recetas</h3>
-                <p class="text-xs sm:text-sm text-stone-400 max-w-md mx-auto mb-6">
+                <h3 className="text-xl font-bold text-white mb-2">No se encontraron recetas</h3>
+                <p className="text-xs sm:text-sm text-stone-400 max-w-md mx-auto mb-6">
                   No encontramos coincidencias para los filtros aplicados. ¿Conoces esta receta y quieres aportarla a la enciclopedia?
                 </p>
-                <div class="flex flex-wrap justify-center gap-3">
+                <div className="flex flex-wrap justify-center gap-3">
                   <button
                     onClick={handleClearFilters}
-                    class="px-5 py-2.5 bg-stone-800 hover:bg-stone-700 text-stone-200 font-semibold rounded-xl text-xs transition-colors"
+                    className="px-5 py-2.5 bg-stone-800 hover:bg-stone-700 text-stone-200 font-semibold rounded-xl text-xs transition-colors"
                   >
                     Restablecer filtros de búsqueda
                   </button>
                   <button
                     onClick={() => setIsSubmitModalOpen(true)}
-                    class="px-5 py-2.5 bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold rounded-xl text-xs transition-colors flex items-center gap-2"
+                    className="px-5 py-2.5 bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold rounded-xl text-xs transition-colors flex items-center gap-2"
                   >
-                    <PlusCircle class="w-4 h-4" />
+                    <PlusCircle className="w-4 h-4" />
                     <span>Aportar esta receta</span>
                   </button>
                 </div>
