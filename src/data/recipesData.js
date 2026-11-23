@@ -1151,6 +1151,70 @@ export const RECIPES_DATA = [
     "baristaTip": "El queso Leipäjuusto no se disuelve ni enturbia el café; al calentarse adquiere una textura chirriante (\"squeaky\") similar al marshmallow salado.",
     "source": "Tradición sami de Laponia (Suecia y Finlandia)"
   }
+,
+  {
+    "id": "bicerin-turin",
+    "name": "Bicerin Histórico de Turín",
+    "category": "clasicos",
+    "categoryName": "Clásicos de Cafetería",
+    "origin": "Turín, Italia (Caffè Al Bicerin, 1763)",
+    "difficulty": "Intermedio",
+    "time": "5 min",
+    "timeMinutes": 5,
+    "grindSize": "Fina",
+    "ratio": "1/3 Chocolate caliente amargo + 1/3 Espresso + 1/3 Nata semibatida fría",
+    "coffeeGrams": 16,
+    "waterMl": 35,
+    "temp": "Caliente con corona fría",
+    "flavorNotes": [
+      "Chocolate gianduja fundido",
+      "Cacao oscuro",
+      "Espresso denso",
+      "Nata fresca sedosa"
+    ],
+    "tags": [
+      "turin",
+      "italia",
+      "bicerin",
+      "chocolate",
+      "historico",
+      "postre",
+      "clasico"
+    ],
+    "image": "https://images.unsplash.com/photo-1612183515105-8c737ba7585d?auto=format&fit=crop&w=800&q=80",
+    "shortDesc": "La histórica bebida de Turín adorada por Cavour y Alejandro Dumas: capas perfectas de chocolate espeso piamontés, café espresso y crema fresca.",
+    "longDesc": "Servido ininterrumpidamente desde 1763 en la Piazza della Consolata de Turín, el Bicerin es una institución de la confitería piamontesa. A diferencia de un mocaccino común, el chocolate caliente artesanal se prepara denso como un pudding antes de recibir el espresso.",
+    "ingredients": [
+      {
+        "item": "Chocolate negro puro (70%) fundido con un toque de leche (espeso)",
+        "amount": "60ml",
+        "baseQty": 60,
+        "unit": "ml"
+      },
+      {
+        "item": "Espresso doble recién extraído",
+        "amount": "35ml",
+        "baseQty": 35,
+        "unit": "ml"
+      },
+      {
+        "item": "Nata fresca para batir fría (35% M.G.)",
+        "amount": "40ml ligeramente montada",
+        "baseQty": 40,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Prepara un chocolate a la taza caliente, denso y oscuro en un cazo.",
+      "Sírvelo en el primer tercio de un vaso de cristal bajo con pie tradicional.",
+      "Extrae el espresso caliente y viértelo cuidadosamente sobre el dorso de una cuchara para que repose encima del chocolate.",
+      "Bate la nata fría ligeramente a mano hasta que espese pero conserve fluidez.",
+      "Cubre con la nata fría creando un contraste perfecto de color y temperatura.",
+      "¡No lo revuelvas! El Bicerin se bebe caliente a través de la capa fría de nata."
+    ],
+    "baristaTip": "El ritual del Bicerin exige no remover nunca la copa con la cuchara para que cada trago pase de la suavidad láctea al vigor del café y finalmente al dulzor del cacao.",
+    "source": "Caffè Al Bicerin dal 1763 (Torino)"
+  }
 
 ];
 
